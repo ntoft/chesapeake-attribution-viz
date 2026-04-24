@@ -1,6 +1,62 @@
 {
-  "generatedAt": "2026-04-23T22:54:01.975Z",
+  "generatedAt": "2026-04-24T13:42:43.972Z",
   "events": [
+    {
+      "wref": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "lat": 38.95,
+        "lon": -77.04,
+        "date": "2026-04-15",
+        "status": "reported",
+        "watershed": "Watershed/chesapeake-bay@v1",
+        "location_name": "Potomac River near Alexandria, VA",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04",
+        "primary_species": "Gizzard shad",
+        "estimated_mortality": 900
+      }
+    },
+    {
+      "wref": "FishKillEvent/severn-2025-11",
+      "data": {
+        "lat": 38.95,
+        "lon": -76.5,
+        "date": "2025-11-08",
+        "status": "reported",
+        "watershed": "Watershed/chesapeake-bay@v1",
+        "location_name": "Severn River near Annapolis, MD",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11",
+        "primary_species": "Striped bass",
+        "estimated_mortality": 1800
+      }
+    },
+    {
+      "wref": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "lat": 38.73,
+        "lon": -75.884,
+        "date": "2025-06-03",
+        "status": "reported",
+        "watershed": "Watershed/chesapeake-bay@v1",
+        "location_name": "Choptank River near Cambridge, MD",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 4200
+      }
+    },
+    {
+      "wref": "FishKillEvent/bush-2025-08",
+      "data": {
+        "lat": 39.4,
+        "lon": -76.25,
+        "date": "2025-08-14",
+        "status": "reported",
+        "watershed": "Watershed/chesapeake-bay@v1",
+        "location_name": "Bush River near Aberdeen, MD",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08",
+        "primary_species": "White perch",
+        "estimated_mortality": 2500
+      }
+    },
     {
       "wref": "FishKillEvent/test-2026-04-23-rhode",
       "data": {
@@ -14,205 +70,465 @@
         "primary_species": "white_perch",
         "estimated_mortality": 125
       }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-elk",
-      "data": {
-        "lat": 39.6,
-        "lon": -75.9,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Elk River test",
-        "source_report": "synthetic test event 15b - credentials export",
-        "primary_species": "striped_bass",
-        "estimated_mortality": 275
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-magothy",
-      "data": {
-        "lat": 39.06,
-        "lon": -76.5,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Magothy River test",
-        "source_report": "synthetic test event 14 - post-credential-grant",
-        "primary_species": "white_perch",
-        "estimated_mortality": 340
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-bush",
-      "data": {
-        "lat": 39.4,
-        "lon": -76.25,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Bush River test",
-        "source_report": "synthetic test event 13",
-        "primary_species": "striped_bass",
-        "estimated_mortality": 180
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-severn",
-      "data": {
-        "lat": 38.95,
-        "lon": -76.5,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Severn River near Annapolis",
-        "source_report": "Eleventh synthetic — stdin payload debug",
-        "primary_species": "White perch",
-        "estimated_mortality": 900
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-chester",
-      "data": {
-        "lat": 39.1,
-        "lon": -76.15,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Chester River near Chestertown",
-        "source_report": "Tenth synthetic — payload parsing fix verification",
-        "primary_species": "Atlantic menhaden",
-        "estimated_mortality": 1800
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-gunpowder",
-      "data": {
-        "lat": 39.4,
-        "lon": -76.45,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Gunpowder River near Baltimore",
-        "source_report": "Ninth synthetic — post-fix verification",
-        "primary_species": "Striped bass",
-        "estimated_mortality": 2000
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-nanticoke",
-      "data": {
-        "lat": 38.58,
-        "lon": -75.8,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Nanticoke River",
-        "source_report": "Eighth synthetic — WH_TOKEN fix verification",
-        "primary_species": "White perch",
-        "estimated_mortality": 750
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-james",
-      "data": {
-        "lat": 37.55,
-        "lon": -76.7,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "James River",
-        "source_report": "Seventh synthetic — env dump debug",
-        "primary_species": "Blueback herring",
-        "estimated_mortality": 400
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-york",
-      "data": {
-        "lat": 37.25,
-        "lon": -76.5,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "York River near Yorktown",
-        "source_report": "Sixth synthetic — minimal-scope token mint test",
-        "primary_species": "Menhaden",
-        "estimated_mortality": 1500
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-susquehanna",
-      "data": {
-        "lat": 39.5,
-        "lon": -76.1,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Susquehanna River near Havre de Grace",
-        "source_report": "Fifth synthetic — scope + bundle fix verification",
-        "primary_species": "Yellow perch",
-        "estimated_mortality": 600
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-rappahannock",
-      "data": {
-        "lat": 38.3,
-        "lon": -77.45,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Rappahannock River near Fredericksburg",
-        "source_report": "Fourth synthetic test event — verify bundled personas work end-to-end",
-        "primary_species": "Striped bass",
-        "estimated_mortality": 1200
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-potomac",
-      "data": {
-        "lat": 38.95,
-        "lon": -77.04,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Potomac River near Washington DC",
-        "source_report": "Third synthetic test event — verify all 3 personas fire after fetch migration",
-        "primary_species": "Largemouth bass",
-        "estimated_mortality": 800
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-choptank",
-      "data": {
-        "lat": 38.73,
-        "lon": -75.884,
-        "date": "2026-04-22",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Choptank River near Cambridge, MD",
-        "source_report": "Second synthetic test event — verify all 3 personas fire with committer fix",
-        "primary_species": "Menhaden",
-        "estimated_mortality": 1200
-      }
-    },
-    {
-      "wref": "FishKillEvent/test-2026-04-23-patapsco",
-      "data": {
-        "lat": 39.245,
-        "lon": -76.585,
-        "date": "2026-04-23",
-        "status": "reported",
-        "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Patapsco River near Baltimore Harbor",
-        "source_report": "Synthetic test event for Phase 9 end-to-end verification",
-        "primary_species": "Striped bass",
-        "estimated_mortality": 450
-      }
     }
   ],
   "beliefs": [
+    {
+      "wref": "AttributionBelief/potomac-2026-04-agency-unknown",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "agency",
+        "rationale": "The initial report does not identify a clear cause for the fish kill event. While the elevated industrial discharge is a potential factor, the report notes the investigation is ongoing, indicating there may be other contributing factors that are not yet known.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-agency-industrial",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "agency",
+        "rationale": "The reported fish kill event occurred in the Potomac River near Alexandria, VA. A recent fish kill report indicates that there were no obvious causes reported, but that EPA TRI filings show elevated industrial discharge from an upstream facility. This suggests an industrial source may be responsible for the fish kill.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-industry-biological",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "The report does not mention any obvious causes, which could indicate a natural biological factor, such as a disease outbreak or harmful algal bloom, that led to the fish mortality. Further investigation into the water quality and ecosystem conditions would be needed to confirm this hypothesis.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-industry-thermal",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "The location near Alexandria, VA, and the timing in mid-April suggest the possibility of thermal stress on the fish population. Elevated water temperatures can make fish more susceptible to disease and mortality, especially for sensitive species like gizzard shad.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-industry-industrial",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "industry",
+        "rationale": "The recent EPA TRI filings show elevated industrial discharge from an upstream facility, which is a potential contributor to the fish kill event. However, the report notes that the official cause is still under investigation, indicating some uncertainty.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-ngo-unknown",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "ngo",
+        "rationale": "The provided context states that no obvious cause was reported, and the investigation is still ongoing. Given the lack of clear evidence pointing to a specific cause, there is significant uncertainty about the root cause of this fish kill event.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.7
+      }
+    },
+    {
+      "wref": "AttributionBelief/potomac-2026-04-ngo-industrial",
+      "about": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "ngo",
+        "rationale": "The provided context indicates that recent EPA TRI filings show elevated industrial discharge from an upstream facility. This suggests industrial pollution as a likely contributor to the observed fish kill event.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-agency-unknown",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.5,
+        "persona": "agency",
+        "rationale": "While the stormflow event is a likely contributor, the limited information provided in the context does not rule out other potential causes, such as agricultural runoff, industrial discharges, or biological factors. Given the sparse evidence, a substantial degree of uncertainty remains regarding the primary cause of the fish kill.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.7
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-agency-stormflow",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.5,
+        "persona": "agency",
+        "rationale": "The context report indicates that a post-tropical storm passage led to a massive stormwater surge and urban runoff in the Severn River near Annapolis, Maryland, resulting in a visible sediment plume. This suggests that stormflow from the storm event is a likely contributor to the fish kill.",
+        "sl_belief": 0.5,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-ngo-industrial",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.2,
+        "persona": "ngo",
+        "rationale": "While the primary cause appears to be stormflow, the event occurred in a watershed with potential industrial pollution sources. As an attribution analyst with priors favoring industrial pollution, I cannot rule out the possibility that industrial discharges or spills may have exacerbated the impact of the stormwater surge, contributing to the observed fish kill.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.5,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-ngo-stormflow",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.8,
+        "persona": "ngo",
+        "rationale": "The provided context indicates that a post-tropical storm passage led to a massive stormwater surge and urban runoff from Annapolis, which likely caused a sediment plume visible in satellite imagery. This suggests that stormflow and associated pollutant runoff were the primary driver of the observed fish kill.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.6,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-agency-unknown",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.1,
+        "persona": "agency",
+        "rationale": "While the report provides some information about the event, there are still some uncertainties around the exact cause of the fish kill. Additional investigation and data would be needed to rule out other potential contributing factors.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-agency-stormflow",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "agency",
+        "rationale": "The report mentions that USGS gauges showed 3x baseline discharge, indicating a significant increase in water flow due to the heavy rain event. This increased stormflow could have contributed to the fish kill.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-agency-agricultural",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "agency",
+        "rationale": "The report indicates that the fish kill event occurred 48 hours after a heavy rain event, and that the upstream watershed is 62% cropland. This suggests that agricultural runoff from the heavy rainfall is a likely contributor to the fish kill.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.5,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-industry-agricultural",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "industry",
+        "rationale": "The report notes that the upstream watershed is 62% cropland, indicating a high proportion of agricultural land use. This suggests that agricultural runoff and nonpoint source pollution may have contributed to the fish kill event, potentially through nutrient loading, pesticide contamination, or other water quality impacts.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-industry-stormflow",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "industry",
+        "rationale": "The report indicates that the fish kill event occurred 48 hours after a heavy rain event, and USGS gauges showed 3x baseline discharge in the Choptank River. This suggests that stormflow and elevated river flows likely played a significant role in disrupting the aquatic environment and contributing to the fish kill.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.5,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-ngo-stormflow",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "ngo",
+        "rationale": "The context notes that USGS gauges showed 3x baseline discharge, indicating a significant stormflow event that may have washed pollutants and sediment into the Choptank River. This stormflow could have contributed to the fish kill, even if agricultural runoff is the primary driver.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/choptank-2025-06-ngo-agricultural",
+      "about": "FishKillEvent/choptank-2025-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.7,
+        "persona": "ngo",
+        "rationale": "The provided context indicates that the fish kill event occurred 48 hours after a heavy rain event, and the upstream watershed is 62% cropland. This suggests that agricultural runoff, likely containing elevated levels of nutrients and other pollutants, is the primary driver of the fish kill.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06"
+        ],
+        "sl_base_rate": 0.6,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-industry-unknown",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.1,
+        "persona": "industry",
+        "rationale": "While the context provides useful information about the thermal conditions and low dissolved oxygen, there may be other contributing factors not captured in the report that could have played a role in this fish kill event. Some uncertainty remains about the exact causal mechanisms.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-industry-biological",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "The context report suggests the fish kill was likely exacerbated by low dissolved oxygen conditions, which can stem from natural biological processes like algal blooms or bacterial respiration. This is a common factor in fish kills in the Chesapeake Bay watershed.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-industry-thermal",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "industry",
+        "rationale": "The context report indicates that a heat wave with sustained high water temperatures (>28°C) over 4 days likely led to thermal stress and a dissolved oxygen crash, which are common drivers of fish kills in this region.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.5,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-agency-thermal",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "agency",
+        "rationale": "The provided context indicates that a mid-August heat wave resulted in sustained high water temperatures (>28°C) for 4 consecutive days prior to the fish kill event. This thermal stress is cited as a suspected cause, along with a potential dissolved oxygen crash, pointing to thermal factors as a likely primary driver.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-ngo-biological",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.35,
+        "persona": "ngo",
+        "rationale": "The report mentions a suspected dissolved oxygen crash, which could also be triggered by biological factors like algal blooms or other microbial activity. While the thermal stress is the primary driver, there is still some uncertainty around the specific biological mechanisms that contributed to the fish kill.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/bush-2025-08-ngo-thermal",
+      "about": "FishKillEvent/bush-2025-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.65,
+        "persona": "ngo",
+        "rationale": "The report indicates that a mid-August heat wave caused water temperatures to exceed 28°C for 4 consecutive days, which likely led to thermal stress and a dissolved oxygen crash in the Bush River near Aberdeen, MD. This is a strong indicator of a thermal kill event.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
     {
       "wref": "AttributionBelief/test-2026-04-23-rhode-ngo-unknown",
       "about": "FishKillEvent/test-2026-04-23-rhode",
@@ -343,187 +659,233 @@
         "prompt_version": "v1-2026-04-23-industry",
         "sl_uncertainty": 0.4
       }
+    }
+  ],
+  "reports": {
+    "potomac-2026-04": {
+      "wref": "FishKillReport/potomac-2026-04",
+      "reporter": "va-deq",
+      "narrative": "No obvious cause reported. Recent EPA TRI filings show elevated industrial discharge from upstream facility. Investigation ongoing.",
+      "waterbody": "Potomac River",
+      "event_date": "2026-04-15"
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-choptank-ngo-unknown",
-      "about": "FishKillEvent/test-2026-04-23-choptank",
+    "severn-2025-11": {
+      "wref": "FishKillReport/severn-2025-11",
+      "reporter": "md-dnr",
+      "narrative": "Post-tropical storm passage. Massive stormwater surge; urban runoff from Annapolis. Sediment plume visible in satellite imagery.",
+      "reported_cause": "stormflow",
+      "waterbody": "Severn River",
+      "event_date": "2025-11-08"
+    },
+    "choptank-2025-06": {
+      "wref": "FishKillReport/choptank-2025-06",
+      "reporter": "md-dnr",
+      "narrative": "48 hours after heavy rain event. USGS gauges showed 3x baseline discharge. Upstream watershed is 62% cropland.",
+      "reported_cause": "agricultural runoff",
+      "waterbody": "Choptank River",
+      "event_date": "2025-06-03"
+    },
+    "bush-2025-08": {
+      "wref": "FishKillReport/bush-2025-08",
+      "reporter": "md-dnr",
+      "narrative": "Mid-August heat wave. SST buoys showed >28°C for 4 consecutive days. Suspected thermal stress + DO crash.",
+      "reported_cause": "low dissolved oxygen",
+      "waterbody": "Bush River",
+      "event_date": "2025-08-14"
+    }
+  },
+  "evidence": {
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Potomac River",
       "data": {
-        "cause": "unknown",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.1,
-        "persona": "ngo",
-        "rationale": "The information provided is limited, and there may be other factors not captured in the data that could have contributed to the fish kill event. Without more comprehensive data, the cause remains partly unknown.",
-        "sl_belief": 0.1,
-        "evidence_ids": [],
-        "sl_base_rate": 0.2,
-        "sl_disbelief": 0.1,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.8
+        "lat": 38.95,
+        "lon": -77.04,
+        "date": "2026-04-15",
+        "status": "reported",
+        "report_id": "potomac-2026-04",
+        "waterbody": "Potomac River",
+        "raw_payload": "No obvious cause reported. Recent EPA TRI filings show elevated industrial discharge from upstream facility. Investigation ongoing.",
+        "location_name": "Potomac River near Alexandria, VA",
+        "source_agency": "va-deq",
+        "official_cause": null,
+        "primary_species": "Gizzard shad",
+        "estimated_mortality": 900
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-choptank-ngo-agricultural",
-      "about": "FishKillEvent/test-2026-04-23-choptank",
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Severn River",
       "data": {
-        "cause": "agricultural",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.2,
-        "persona": "ngo",
-        "rationale": "The Choptank River watershed is known to have significant agricultural activity, which can contribute to water quality issues through nutrient (nitrogen and phosphorus) loading and other pollutants. However, without any specific data on recent agricultural activities or water quality conditions, the evidence for this cause is moderate.",
-        "sl_belief": 0.2,
-        "evidence_ids": [],
-        "sl_base_rate": 0.4,
-        "sl_disbelief": 0.2,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.6
+        "lat": 38.95,
+        "lon": -76.5,
+        "date": "2025-11-08",
+        "status": "reported",
+        "report_id": "severn-2025-11",
+        "waterbody": "Severn River",
+        "raw_payload": "Post-tropical storm passage. Massive stormwater surge; urban runoff from Annapolis. Sediment plume visible in satellite imagery.",
+        "location_name": "Severn River near Annapolis, MD",
+        "source_agency": "md-dnr",
+        "official_cause": "stormflow",
+        "primary_species": "Striped bass",
+        "estimated_mortality": 1800
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-choptank-ngo-stormflow",
-      "about": "FishKillEvent/test-2026-04-23-choptank",
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/choptank-2025-06",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Choptank River",
       "data": {
-        "cause": "stormflow",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.3,
-        "persona": "ngo",
-        "rationale": "The event occurred in the Choptank River, which is part of the Chesapeake Bay watershed. Heavy rainfall and stormwater runoff can lead to increased nutrient and sediment loads, which can cause hypoxia and other water quality issues that can harm fish populations. However, the provided data does not contain any information about recent rainfall or streamflow, so the evidence for this cause is limited.",
-        "sl_belief": 0.3,
-        "evidence_ids": [],
-        "sl_base_rate": 0.4,
-        "sl_disbelief": 0.1,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.6
+        "lat": 38.73,
+        "lon": -75.884,
+        "date": "2025-06-03",
+        "status": "reported",
+        "report_id": "choptank-2025-06",
+        "waterbody": "Choptank River",
+        "raw_payload": "48 hours after heavy rain event. USGS gauges showed 3x baseline discharge. Upstream watershed is 62% cropland.",
+        "location_name": "Choptank River near Cambridge, MD",
+        "source_agency": "md-dnr",
+        "official_cause": "agricultural runoff",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 4200
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-choptank-ngo-thermal",
-      "about": "FishKillEvent/test-2026-04-23-choptank",
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/bush-2025-08",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Bush River",
       "data": {
-        "cause": "thermal",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.4,
-        "persona": "ngo",
-        "rationale": "The temperature data from the YKTV2 and WASD2 stations shows water temperatures around 17-20°C in the days leading up to the fish kill event. This indicates that thermal stress may have contributed to the event, as menhaden are sensitive to higher water temperatures.",
-        "sl_belief": 0.4,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T23:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T23:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst"
-        ],
-        "sl_base_rate": 0.3,
-        "sl_disbelief": 0.1,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.5
+        "lat": 39.4,
+        "lon": -76.25,
+        "date": "2025-08-14",
+        "status": "reported",
+        "report_id": "bush-2025-08",
+        "waterbody": "Bush River",
+        "raw_payload": "Mid-August heat wave. SST buoys showed >28°C for 4 consecutive days. Suspected thermal stress + DO crash.",
+        "location_name": "Bush River near Aberdeen, MD",
+        "source_agency": "md-dnr",
+        "official_cause": "low dissolved oxygen",
+        "primary_species": "White perch",
+        "estimated_mortality": 2500
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-patapsco-ngo-unknown",
-      "about": "FishKillEvent/test-2026-04-23-patapsco",
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+      "kind": "observation",
+      "source": "NOAA",
+      "label": "NOAA · sst_c · 20.3 C · 2026-04-22T00:00:00Z",
       "data": {
-        "cause": "unknown",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.1,
-        "persona": "ngo",
-        "rationale": "While the temperature and flow data provide strong evidence for thermal and stormflow factors, there may be other unknown or undetected causes contributing to the fish kill event. Further investigation would be needed to rule out other potential factors.",
-        "sl_belief": 0.1,
-        "evidence_ids": [],
-        "sl_base_rate": 0.1,
-        "sl_disbelief": 0,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.9
+        "unit": "C",
+        "value": 20.3,
+        "station": "Station/WASD2@v1",
+        "parameter": "sst_c",
+        "timestamp": "2026-04-22T00:00:00Z",
+        "quality_flag": "raw",
+        "source_system": "noaa-erddap-ndbc"
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-patapsco-ngo-stormflow",
-      "about": "FishKillEvent/test-2026-04-23-patapsco",
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst",
+      "kind": "observation",
+      "source": "NOAA",
+      "label": "NOAA · sst_c · 20.4 C · 2026-04-21T23:30:00Z",
       "data": {
-        "cause": "stormflow",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.4,
-        "persona": "ngo",
-        "rationale": "The USGS gage data shows a significant increase in water levels on the Patapsco River in the hours leading up to the fish kill event, indicating a stormflow or high flow event. This sudden influx of water could have caused physical disturbance, reduced oxygen levels, or flushed out sediments that impacted the fish population.",
-        "sl_belief": 0.4,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T20:00:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T19:45:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T19:30:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T19:15:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T19:00:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T18:45:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T18:30:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T18:15:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T18:00:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T17:45:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T17:30:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T17:15:00.000-04:00-gage_height_ft",
-          "wh:fish-kill-attribution/usgs-nwis/Observation/02047783-2026-04-22T17:00:00.000-04:00-gage_height_ft"
-        ],
-        "sl_base_rate": 0.2,
-        "sl_disbelief": 0,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.6
+        "unit": "C",
+        "value": 20.4,
+        "station": "Station/WASD2@v1",
+        "parameter": "sst_c",
+        "timestamp": "2026-04-21T23:30:00Z",
+        "quality_flag": "raw",
+        "source_system": "noaa-erddap-ndbc"
       }
     },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-patapsco-ngo-thermal",
-      "about": "FishKillEvent/test-2026-04-23-patapsco",
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst",
+      "kind": "observation",
+      "source": "NOAA",
+      "label": "NOAA · sst_c · 20.4 C · 2026-04-21T23:00:00Z",
       "data": {
-        "cause": "thermal",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.5,
-        "persona": "ngo",
-        "rationale": "The surface water temperature data from NOAA NDBC shows a steady increase in water temperature over the 24-hour period leading up to the fish kill event, reaching over 17°C. This elevated water temperature could have led to thermal stress and mortality in the striped bass population.",
-        "sl_belief": 0.5,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T14:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T13:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T13:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T13:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T12:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T12:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T12:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T11:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T11:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T10:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T10:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T10:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T09:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T09:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T09:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T09:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T08:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T08:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T08:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T07:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T07:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T07:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T06:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T06:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T06:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T06:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T05:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T05:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T05:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T04:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T04:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T04:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T03:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T03:18:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T03:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T02:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T02:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T01:48:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T01:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T01:00:00Z-sst"
-        ],
-        "sl_base_rate": 0.3,
-        "sl_disbelief": 0,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.5
+        "unit": "C",
+        "value": 20.4,
+        "station": "Station/WASD2@v1",
+        "parameter": "sst_c",
+        "timestamp": "2026-04-21T23:00:00Z",
+        "quality_flag": "raw",
+        "source_system": "noaa-erddap-ndbc"
+      }
+    },
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst",
+      "kind": "observation",
+      "source": "NOAA",
+      "label": "NOAA · sst_c · 17.5 C · 2026-04-22T00:00:00Z",
+      "data": {
+        "unit": "C",
+        "value": 17.5,
+        "station": "Station/YKTV2@v1",
+        "parameter": "sst_c",
+        "timestamp": "2026-04-22T00:00:00Z",
+        "quality_flag": "raw",
+        "source_system": "noaa-erddap-ndbc"
+      }
+    },
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst",
+      "kind": "observation",
+      "source": "NOAA",
+      "label": "NOAA · sst_c · 17.1 C · 2026-04-21T21:00:00Z",
+      "data": {
+        "unit": "C",
+        "value": 17.1,
+        "station": "Station/YKTV2@v1",
+        "parameter": "sst_c",
+        "timestamp": "2026-04-21T21:00:00Z",
+        "quality_flag": "raw",
+        "source_system": "noaa-erddap-ndbc"
       }
     }
-  ]
+  },
+  "pipelineHealth": {
+    "sources": [
+      {
+        "repo": "fish-kill-attribution/noaa-sst-daily",
+        "label": "NOAA",
+        "lastCommitAt": "2026-04-24T06:00:41.551Z",
+        "commitCount24h": 5,
+        "failureCount": 0,
+        "status": "healthy"
+      },
+      {
+        "repo": "fish-kill-attribution/usgs-nwis",
+        "label": "USGS",
+        "lastCommitAt": "2026-04-24T06:01:58.303Z",
+        "commitCount24h": 5,
+        "failureCount": 0,
+        "status": "healthy"
+      },
+      {
+        "repo": "fish-kill-attribution/epa-tri",
+        "label": "EPA",
+        "lastCommitAt": "2026-04-24T00:12:34.029Z",
+        "commitCount24h": 4,
+        "failureCount": 0,
+        "status": "healthy"
+      },
+      {
+        "repo": "fish-kill-attribution/state-fishkills",
+        "label": "State",
+        "lastCommitAt": "2026-04-24T00:23:24.178Z",
+        "commitCount24h": 3,
+        "failureCount": 0,
+        "status": "healthy"
+      }
+    ],
+    "collectedAt": "2026-04-24T13:42:43.972Z"
+  }
 }
