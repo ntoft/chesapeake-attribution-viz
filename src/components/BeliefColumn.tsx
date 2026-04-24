@@ -106,9 +106,20 @@ export function BeliefColumn({ persona, event, beliefs, evidence, satelliteScene
               >
                 {b.data.cause}
               </span>
-              <span className="text-slate-300 tabular-nums">{(b.data.share * 100).toFixed(0)}%</span>
+              <span className="tabular-nums">
+                <span
+                  className="text-[9px] uppercase tracking-wider text-slate-500 mr-1"
+                  title="Fraction of this kill the persona assigns to this cause"
+                >
+                  Share
+                </span>
+                <span className="text-slate-200">{(b.data.share * 100).toFixed(0)}%</span>
+              </span>
             </div>
-            <div className="h-1.5 w-full bg-slate-800 rounded">
+            <div
+              className="h-1.5 w-full bg-slate-800 rounded"
+              title={`Share: ${(b.data.share * 100).toFixed(0)}% of this kill attributed to ${b.data.cause}`}
+            >
               <div
                 className="h-full rounded"
                 style={{
@@ -117,13 +128,30 @@ export function BeliefColumn({ persona, event, beliefs, evidence, satelliteScene
                 }}
               />
             </div>
-            <BDUMeter
-              belief={b.data.sl_belief}
-              disbelief={b.data.sl_disbelief}
-              uncertainty={b.data.sl_uncertainty}
-              size="sm"
-              showValues
-            />
+            <div
+              className="pt-1.5"
+              title="How sure the persona is in that share — green=belief, orange=disbelief, gray=uncertainty"
+            >
+              <div className="flex items-center justify-between mb-0.5">
+                <span className="text-[9px] uppercase tracking-wider text-slate-500">
+                  Confidence in share
+                </span>
+                <span className="text-[10px] text-slate-500">
+                  {b.data.sl_uncertainty < 0.25
+                    ? 'high'
+                    : b.data.sl_uncertainty < 0.55
+                    ? 'moderate'
+                    : 'low'}
+                </span>
+              </div>
+              <BDUMeter
+                belief={b.data.sl_belief}
+                disbelief={b.data.sl_disbelief}
+                uncertainty={b.data.sl_uncertainty}
+                size="sm"
+                showValues
+              />
+            </div>
             <p className="text-xs text-slate-400 leading-relaxed pt-1">{b.data.rationale}</p>
             <EvidenceChips ids={b.data.evidence_ids ?? []} evidence={evidence} />
           </div>

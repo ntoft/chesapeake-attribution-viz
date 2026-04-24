@@ -25,3 +25,4 @@ dist-ssr
 
 # GitHub Packages auth — do NOT commit
 .npmrc
+.vercel

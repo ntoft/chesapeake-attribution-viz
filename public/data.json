@@ -1,18 +1,228 @@
 {
-  "generatedAt": "2026-04-24T13:42:43.972Z",
+  "generatedAt": "2026-04-24T18:46:16.079Z",
   "events": [
     {
-      "wref": "FishKillEvent/potomac-2026-04",
+      "wref": "FishKillEvent/lower-neuse-2025-09",
       "data": {
-        "lat": 38.95,
-        "lon": -77.04,
-        "date": "2026-04-15",
+        "lat": 35.03,
+        "lon": -76.7,
+        "date": "2025-09-03",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020204-lower-neuse@v1",
+        "location_name": "Lower Neuse near Oriental, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 22000
+      }
+    },
+    {
+      "wref": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "lat": 35.11,
+        "lon": -75.99,
+        "date": "2025-07-18",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020105-pamlico-sound@v1",
+        "location_name": "Pamlico Sound near Ocracoke, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 8900
+      }
+    },
+    {
+      "wref": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "lat": 34.3,
+        "lon": -77.97,
+        "date": "2024-11-05",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03030005-lower-cape-fear@v1",
+        "location_name": "Lower Cape Fear near Leland, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11",
+        "primary_species": "Hybrid striped bass",
+        "estimated_mortality": 540
+      }
+    },
+    {
+      "wref": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "lat": 34.68,
+        "lon": -77.12,
+        "date": "2024-08-08",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020301-white-oak-river@v1",
+        "location_name": "White Oak River near Swansboro, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08",
+        "primary_species": "Atlantic croaker",
+        "estimated_mortality": 3800
+      }
+    },
+    {
+      "wref": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "lat": 35.9,
+        "lon": -77.53,
+        "date": "2023-09-22",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020101-upper-tar@v1",
+        "location_name": "Upper Tar River near Tarboro, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09",
+        "primary_species": "Largemouth bass",
+        "estimated_mortality": 620
+      }
+    },
+    {
+      "wref": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "lat": 35.55,
+        "lon": -77.05,
+        "date": "2023-08-06",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020104-pamlico@v1",
+        "location_name": "Pamlico River near Washington, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08",
+        "primary_species": "Spot",
+        "estimated_mortality": 2200
+      }
+    },
+    {
+      "wref": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "lat": 34.55,
+        "lon": -77.92,
+        "date": "2023-05-14",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03030007-northeast-cape-fear@v1",
+        "location_name": "NE Cape Fear River near Burgaw, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05",
+        "primary_species": "Bluegill",
+        "estimated_mortality": 950
+      }
+    },
+    {
+      "wref": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "lat": 35.26,
+        "lon": -77.58,
+        "date": "2022-09-30",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020202-middle-neuse@v1",
+        "location_name": "Middle Neuse near Kinston, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 12500
+      }
+    },
+    {
+      "wref": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "lat": 36.05,
+        "lon": -76.35,
+        "date": "2022-04-03",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03010205-albemarle@v1",
+        "location_name": "Albemarle Sound near Columbia, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04",
+        "primary_species": "River herring",
+        "estimated_mortality": 6200
+      }
+    },
+    {
+      "wref": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "lat": 34.23,
+        "lon": -77.94,
+        "date": "2021-10-09",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03030005-lower-cape-fear@v1",
+        "location_name": "Lower Cape Fear River near Wilmington, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10",
+        "primary_species": "White perch",
+        "estimated_mortality": 800
+      }
+    },
+    {
+      "wref": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "lat": 35.45,
+        "lon": -77.67,
+        "date": "2021-06-18",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020203-contentnea@v1",
+        "location_name": "Contentnea Creek near Snow Hill, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06",
+        "primary_species": "Channel catfish",
+        "estimated_mortality": 1400
+      }
+    },
+    {
+      "wref": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "lat": 35.2,
+        "lon": -75.69,
+        "date": "2020-09-12",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020105-pamlico-sound@v1",
+        "location_name": "Pamlico Sound off Hatteras, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09",
+        "primary_species": "Atlantic croaker",
+        "estimated_mortality": 5600
+      }
+    },
+    {
+      "wref": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "lat": 34.755,
+        "lon": -77.433,
+        "date": "2020-08-04",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020302-new-river@v1",
+        "location_name": "New River near Jacksonville, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08",
+        "primary_species": "Striped mullet",
+        "estimated_mortality": 2100
+      }
+    },
+    {
+      "wref": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "lat": 36.07,
+        "lon": -76.61,
+        "date": "2019-07-22",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03010203-chowan@v1",
+        "location_name": "Chowan River near Edenton, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07",
+        "primary_species": "Gizzard shad",
+        "estimated_mortality": 3400
+      }
+    },
+    {
+      "wref": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "lat": 35.103,
+        "lon": -77.038,
+        "date": "2019-08-14",
+        "status": "reported",
+        "watershed": "Watershed/huc8-03020204-lower-neuse@v1",
+        "location_name": "Lower Neuse River near New Bern, NC",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 18000
+      }
+    },
+    {
+      "wref": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "lat": 38.98,
+        "lon": -76.48,
+        "date": "2026-04-24",
         "status": "reported",
         "watershed": "Watershed/chesapeake-bay@v1",
-        "location_name": "Potomac River near Alexandria, VA",
-        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04",
-        "primary_species": "Gizzard shad",
-        "estimated_mortality": 900
+        "location_name": "Severn River test point (webhook E2E)",
+        "source_report": "",
+        "primary_species": "Menhaden",
+        "estimated_mortality": 100
       }
     },
     {
@@ -27,6 +237,20 @@
         "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11",
         "primary_species": "Striped bass",
         "estimated_mortality": 1800
+      }
+    },
+    {
+      "wref": "FishKillEvent/potomac-2026-04",
+      "data": {
+        "lat": 38.95,
+        "lon": -77.04,
+        "date": "2026-04-15",
+        "status": "reported",
+        "watershed": "Watershed/chesapeake-bay@v1",
+        "location_name": "Potomac River near Alexandria, VA",
+        "source_report": "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04",
+        "primary_species": "Gizzard shad",
+        "estimated_mortality": 900
       }
     },
     {
@@ -73,6 +297,2334 @@
     }
   ],
   "beliefs": [
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-industry-stormflow",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "industry",
+        "rationale": "Post-tropical system passage on Aug 30 would have caused significant runoff and potential stratification disruption, though primary impact appears to be through nutrient mobilization rather than direct habitat disruption.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-industry-thermal",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "September timing and explicit mention of 'thermal stress' indicates elevated water temperatures contributing to oxygen depletion. Late summer thermal stratification commonly exacerbates hypoxic conditions.",
+        "sl_belief": 0.5,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-industry-agricultural",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "industry",
+        "rationale": "Reported swine lagoon breaches downstream of Kinston would contribute significant nutrient loading, exacerbating hypoxic conditions. The 'nutrient surge' mentioned directly implicates agricultural sources.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-industry-biological",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.45,
+        "persona": "industry",
+        "rationale": "Post-tropical system combined with nutrients likely triggered harmful algal bloom causing hypoxic conditions. The official cause of 'low dissolved oxygen' and mass menhaden mortality are classic HAB indicators in estuarine waters during late summer.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-ngo-thermal",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.2,
+        "persona": "ngo",
+        "rationale": "Report explicitly mentions 'thermal stress' as a contributing factor. Post-storm conditions in early September could create temperature stratification. However, this appears secondary to the nutrient pollution driver.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-ngo-stormflow",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "ngo",
+        "rationale": "Post-tropical system passed Aug 30, just days before the kill. Storm systems can cause rapid freshwater influx, stratification, and mobilize pollutants from the watershed. The timing strongly implicates storm-related mechanisms working in concert with the agricultural pollution.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-ngo-agricultural",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.5,
+        "persona": "ngo",
+        "rationale": "Swine lagoons downstream of Kinston reportedly breached following post-tropical system. This would release massive concentrated animal waste containing nitrogen and phosphorus, creating a nutrient surge that drives eutrophication and oxygen depletion. The 10km extent suggests a large-scale pollution event consistent with lagoon breach.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-agency-unknown",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "While major causes are indicated, lack of water quality measurements, specific temperature data, or detailed investigation results leaves some uncertainty about complete causal picture.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-agency-thermal",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "Report mentions thermal stress as contributing factor. September timing and post-storm conditions could create temperature stratification exacerbating oxygen depletion.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-agency-stormflow",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "agency",
+        "rationale": "Post-tropical system passed August 30, three days before kill event. Storm-driven runoff likely mobilized nutrients and created stratification conditions leading to hypoxia. Official cause listed as low dissolved oxygen consistent with post-storm dynamics.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2025-09-agency-agricultural",
+      "about": "FishKillEvent/lower-neuse-2025-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.45,
+        "persona": "agency",
+        "rationale": "Report explicitly mentions swine lagoons downstream of Kinston reportedly breached following post-tropical system, indicating agricultural waste release. Combined with nutrient surge mentioned in report suggests agricultural runoff as primary driver of hypoxia.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-agency-unknown",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "Minor attribution to account for potential contributing factors not captured in available data, such as synergistic effects with other stressors or unmonitored water quality parameters. The recurring nature suggests possible underlying ecosystem changes beyond HAB alone",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.85,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-agency-biological",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "agency",
+        "rationale": "Strong convergent evidence for harmful algal bloom (HAB) causation: (1) Official cause determination of 'harmful algal bloom' by NC-WRC, (2) Specific identification of Karenia species red tide, (3) Recurring pattern - 5th consecutive year suggesting established ecological conditions, (4) Large spatial extent (~120 km²) confirmed by MODIS satellite imagery, (5) Co-location of bloom with menhaden schooling area explains species-specific mortality, (6) Elevated sea surface temperature (30°C+) conducive to Karenia proliferation",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-ngo-unknown",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "ngo",
+        "rationale": "While the HAB is well-documented, the recurring nature over 5 years suggests potential underlying anthropogenic factors (nutrient loading from agriculture or wastewater) that may be fueling these blooms, though no such evidence is provided in the current context.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-ngo-thermal",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "ngo",
+        "rationale": "Sea surface temperature of 30°C+ is critically high for menhaden and likely contributed as a stressor that exacerbated the HAB impacts. Thermal stress can reduce dissolved oxygen and increase fish susceptibility to toxins.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-ngo-biological",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "ngo",
+        "rationale": "Official report identifies harmful algal bloom (Karenia red tide) as cause, with this being the 5th consecutive year of occurrence. The 120 km² bloom extent detected by MODIS satellite and overlap with menhaden schooling areas provides strong evidence of HAB-induced mortality. The recurring nature suggests this is an established biological phenomenon in the region.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-industry-thermal",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "industry",
+        "rationale": "Sea surface temperatures exceeded 30°C, which represents significant thermal stress for Atlantic menhaden. While not the primary cause, elevated temperatures likely exacerbated the HAB impacts by reducing dissolved oxygen and increasing metabolic stress on the fish population.",
+        "sl_belief": 0.7000000000000001,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.20000000000000004,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.10000000000000002
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2025-07-industry-biological",
+      "about": "FishKillEvent/pamlico-sound-2025-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "industry",
+        "rationale": "The official report explicitly identifies a harmful algal bloom (Karenia red tide) as the cause, with this being the 5th consecutive year of occurrence. The bloom covered ~120 km² per satellite imagery and overlapped with menhaden schooling areas. Red tide produces brevetoxins that are lethal to fish, particularly schooling species like menhaden that cannot escape the bloom area.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-industry-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.5,
+        "persona": "industry",
+        "rationale": "Limited water quality data, no dissolved oxygen measurements, no temperature records, and investigation still ongoing. The report explicitly states 'no apparent natural trigger' and lists the cause as under investigation. Without contemporaneous water quality measurements or clear evidence of acute stressors, significant uncertainty remains.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-industry-thermal",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "November timing suggests potential cold shock stress. Hybrid striped bass are particularly sensitive to rapid temperature changes. The report notes this as a 'cold-season' event with 'no apparent natural trigger,' which paradoxically suggests temperature stress may be overlooked as a contributing factor.",
+        "sl_belief": 0.35000000000000003,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.30000000000000004,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.35000000000000003
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-industry-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.2,
+        "persona": "industry",
+        "rationale": "While the report mentions EPA TRI showing elevated chloride/metals discharge from an upstream industrial site in October, this is insufficient evidence for strong attribution. TRI data represents routine reporting, not necessarily permit exceedances or acute toxicity events. The temporal gap between October reporting and November kill event further weakens direct causation.",
+        "sl_belief": 0.15,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.6,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-agency-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.4,
+        "persona": "agency",
+        "rationale": "Investigation is ongoing with no official cause determined. Limited observational data (no water quality measurements, temperature readings, or dissolved oxygen levels) creates substantial uncertainty despite the industrial discharge evidence.",
+        "sl_belief": 0.35,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-agency-thermal",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "Cold-season timing could indicate thermal shock, though no direct temperature data is provided. Industrial discharges can include thermal components.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-agency-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.45,
+        "persona": "agency",
+        "rationale": "EPA TRI data shows elevated chloride/metals discharge from upstream industrial site in October reporting period, temporally aligned with the kill event. The cold-season timing and lack of natural triggers makes industrial discharge a plausible primary cause.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.45
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-ngo-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "ngo",
+        "rationale": "While industrial discharge is documented, the investigation is still ongoing and the official cause has not been determined. The specific mechanism linking the chloride/metals discharge to striped bass mortality requires further investigation.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2024-11-ngo-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2024-11",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.7,
+        "persona": "ngo",
+        "rationale": "EPA TRI data shows elevated chloride and metals discharge from upstream industrial site during October reporting period, immediately preceding the kill event. The report specifically notes this is an unusual cold-season kill with no apparent natural trigger, strongly suggesting industrial pollution as the primary cause.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-agency-unknown",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "While stormflow provides primary explanation, limited monitoring data prevents complete exclusion of contributing factors such as storm-mobilized contaminants or concurrent low dissolved oxygen conditions that may have exacerbated mortality.",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-agency-stormflow",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "agency",
+        "rationale": "Official agency determination attributes kill to Tropical Storm Debby impacts. Documented rapid salinity crash from 18 ppt to 3 ppt within 12 hours provides clear mechanistic pathway for osmoregulatory failure in Atlantic croaker. The estuarine-specific kill pattern aligns with freshwater intrusion mortality in marine species.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-ngo-unknown",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "ngo",
+        "rationale": "While the stormflow evidence is compelling, I maintain minimal uncertainty given the limited upstream monitoring data provided. There could be compounding factors from agricultural runoff or industrial releases mobilized by the storm surge, but no such evidence is present in the provided context.",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.85,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-ngo-stormflow",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "ngo",
+        "rationale": "The kill occurred during Tropical Storm Debby (Aug 7-8) with documented extreme salinity crash from 18 ppt to 3 ppt within 12 hours. This rapid osmotic shock in an estuarine environment would be lethal to Atlantic croaker, which cannot quickly adapt to such dramatic salinity changes. The estuarine-specific kill pattern and timing directly coincident with the tropical storm provides overwhelming evidence for stormwater-induced mortality.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-industry-unknown",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "industry",
+        "rationale": "Minor uncertainty remains as no dissolved oxygen, temperature, or other water quality parameters were reported. Storm events can mobilize multiple stressors simultaneously.",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.85,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/white-oak-2024-08-industry-stormflow",
+      "about": "FishKillEvent/white-oak-2024-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "industry",
+        "rationale": "Tropical Storm Debby caused catastrophic salinity drop from 18 ppt to 3 ppt within 12 hours. This extreme freshwater influx from stormflow runoff created lethal osmotic stress for estuarine fish. Atlantic croaker are euryhaline but cannot tolerate such rapid salinity changes. The estuarine-specific kill pattern and timing directly coincident with the tropical storm passage confirms stormflow as the primary driver.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-industry-thermal",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "industry",
+        "rationale": "Warm temperatures mentioned as contributing factor to the HAB event. High water temperatures during low-flow conditions likely created additional stress on fish, making them more susceptible to algal toxins.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-industry-biological",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "industry",
+        "rationale": "Official report confirms harmful algal bloom (Dolichospermum/Anabaena) with elevated microcystin toxin levels. Low-flow drought conditions and warm temperatures created ideal conditions for cyanobacterial bloom development. The 620 fish mortality, while relatively small, is directly attributed to algal toxins.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-agency-unknown",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "While the HAB cause is well-documented, the relatively small mortality count (620 fish) and specific targeting of largemouth bass suggests there may be additional minor stressors not captured in the report. The drought conditions could have concentrated other pollutants not measured.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.6,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-agency-thermal",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "agency",
+        "rationale": "The report mentions 'warm temps' as a contributing factor alongside low-flow conditions. While thermal stress was not the primary cause, elevated temperatures likely exacerbated the HAB conditions and may have contributed additional stress to fish already exposed to algal toxins.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.35
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-agency-biological",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "The state report explicitly confirms a harmful algal bloom (HAB) with Dolichospermum (Anabaena) species and elevated microcystin toxin levels. The official cause determination by NC-WRC attributes this kill to HAB. Low-flow drought conditions and warm temperatures created ideal conditions for cyanobacterial growth and toxin production.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-ngo-agricultural",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "ngo",
+        "rationale": "While no direct agricultural evidence is provided, harmful algal blooms are typically fueled by nutrient loading from agricultural runoff. The bloom represents a biological response to likely anthropogenic nutrient inputs, though specific agricultural sources are not documented in the available evidence.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.7
+      }
+    },
+    {
+      "wref": "AttributionBelief/upper-tar-2023-09-ngo-biological",
+      "about": "FishKillEvent/upper-tar-2023-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "ngo",
+        "rationale": "Direct evidence of Dolichospermum bloom with elevated microcystin toxins confirmed by state agency. Low-flow conditions and warm temperatures created ideal conditions for harmful algal bloom development. The toxins produced by cyanobacteria are the proximate cause of fish mortality.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-industry-unknown",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "industry",
+        "rationale": "While thermal stress is clearly documented as the primary driver, there may be contributing factors not captured in the report such as potential algal toxins or other stressors that compounded the thermal/hypoxic conditions during this heat dome event.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-industry-thermal",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.9,
+        "persona": "industry",
+        "rationale": "Official report directly attributes kill to extreme thermal stress with measured surface temperatures of 31-32°C sustained for 5 days, nighttime temperatures >26°C preventing cooling, and documented DO crash to <1 mg/L at dawn. These conditions create lethal thermal and hypoxic stress for spot, which are sensitive to high temperatures and low oxygen.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-ngo-unknown",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "ngo",
+        "rationale": "While thermal stress is clearly documented, the Pamlico River watershed has significant agricultural and industrial activity that could have contributed as a secondary stressor. Without upstream water quality data or information about nutrient levels, agricultural runoff, or industrial discharges in the days preceding the event, I cannot completely rule out anthropogenic contributions that may have made the system more vulnerable to the thermal stress.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-ngo-thermal",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "ngo",
+        "rationale": "The official report explicitly documents extreme thermal conditions with surface temperatures of 31-32°C sustained for 5 days and nighttime lows >26°C. The DO crash at dawn (<1 mg/L) is a classic signature of thermal stress causing oxygen depletion. Stratified water column with no wind mixing exacerbated the conditions. While I typically scrutinize 'natural causes' explanations, the extreme temperature measurements and DO crash pattern are compelling evidence of thermal stress as the primary driver.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-agency-unknown",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "While thermal stress is the officially determined cause with strong supporting evidence, some uncertainty remains as the report does not include comprehensive water quality data beyond temperature and dissolved oxygen. No information is provided about potential contributing factors such as nutrient levels, algal blooms, or other stressors that could have exacerbated the thermal impacts.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.7,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-2023-08-agency-thermal",
+      "about": "FishKillEvent/pamlico-2023-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "The official report documents extreme thermal conditions with surface temperatures of 31-32°C sustained for 5 days and nighttime temperatures remaining above 26°C. These temperatures exceed typical thermal tolerance thresholds for Spot (Leiostomus xanthurus). The dawn dissolved oxygen crash to <1 mg/L is consistent with temperature-driven oxygen depletion, as warmer water holds less dissolved oxygen and increases metabolic oxygen demand. The stratified water column with no wind mixing would have prevented oxygen replenishment from the atmosphere.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-ngo-unknown",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "ngo",
+        "rationale": "Minor uncertainty remains as the report lists this as 'reported' status rather than 'confirmed', and full water quality parameters beyond pH and nitrogen are not provided. However, the direct admission of lagoon seepage strongly reduces uncertainty.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-ngo-agricultural",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.95,
+        "persona": "ngo",
+        "rationale": "Strong evidence of agricultural pollution: swine lagoon seepage directly reported by operator, elevated nitrogen levels, and low pH (5.8) consistent with acidic agricultural runoff. The official cause determination by NC DEQ also confirms agricultural runoff. The localized nature (2km reach) matches point-source agricultural discharge pattern.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-agency-unknown",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "While the agricultural source appears well-documented, the limited contextual data (no upstream water quality monitoring, no release data from EPA TRI, no weather station data) introduces some uncertainty. The report explicitly notes no hurricane or rainfall correlation, which strengthens the point-source hypothesis but doesn't completely rule out other contributing factors.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.7
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-agency-agricultural",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "The official investigation by NC-DEQ determined agricultural runoff as the cause, with specific evidence of swine lagoon seepage reported by the operator. The low pH of 5.8 and elevated nitrogen levels are consistent with swine waste contamination. The localized nature of the kill (2km reach) aligns with a point-source agricultural release rather than diffuse runoff.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-industry-unknown",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "While agricultural impact is evident, the specific kill mechanism remains partially uncertain. The pH 5.8 is stressful but not typically acutely lethal to bluegill. No dissolved oxygen measurements were reported, leaving hypoxia as an unmeasured potential cofactor.",
+        "sl_belief": 0.15,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.45
+      }
+    },
+    {
+      "wref": "AttributionBelief/ne-cape-fear-2023-05-industry-agricultural",
+      "about": "FishKillEvent/ne-cape-fear-2023-05",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Swine lagoon seepage was reported by operator with measured pH 5.8 and elevated nitrogen levels. The acidic pH and nitrogen enrichment are consistent with swine waste contamination. The localized 2km reach impact suggests a point-source release rather than diffuse runoff.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-ngo-stormflow",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.25,
+        "persona": "ngo",
+        "rationale": "Hurricane Ian passage on Sep 29-30 caused historic floodwaters that were the proximate cause enabling the agricultural pollution. The storm-driven flooding breached containment structures and likely contributed to hypoxic conditions through increased runoff and sediment load.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-ngo-agricultural",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.75,
+        "persona": "ngo",
+        "rationale": "Hurricane Ian breached 6 swine lagoons upstream in Duplin/Greene counties, releasing agricultural waste into the Neuse River. Ammonia and E. coli spikes were measured, indicating direct contamination from animal waste. This is described as a 'classic post-hurricane Neuse die-off' pattern, suggesting this is a recurring issue when storms overwhelm agricultural waste infrastructure.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-agency-unknown",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "agency",
+        "rationale": "While agricultural and stormflow factors are clearly documented, the complexity of post-hurricane water quality dynamics leaves room for additional unmeasured factors. Limited temporal resolution of measurements and potential for multiple interacting stressors warrant modest uncertainty allocation.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-agency-stormflow",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.25,
+        "persona": "agency",
+        "rationale": "Hurricane Ian produced historic floodwaters that likely contributed to hypoxic conditions through multiple mechanisms including sediment resuspension, organic matter transport, and stratification disruption. The report characterizes this as a 'classic post-hurricane Neuse die-off,' suggesting stormflow is a recurring contributor.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-agency-agricultural",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.65,
+        "persona": "agency",
+        "rationale": "Hurricane Ian breached 6 swine lagoons upstream in Duplin/Greene counties, causing measured ammonia and E. coli spikes. This direct evidence of agricultural waste release during extreme weather aligns with the official hypoxia determination, as decomposing organic matter from lagoon breaches depletes dissolved oxygen.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-industry-stormflow",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "Hurricane Ian's historic floodwaters created extreme flow conditions that disrupted habitat and exacerbated oxygen depletion through organic matter mobilization",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/middle-neuse-2022-09-industry-agricultural",
+      "about": "FishKillEvent/middle-neuse-2022-09",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.7,
+        "persona": "industry",
+        "rationale": "Hurricane-driven breach of 6 swine lagoons upstream with documented ammonia and E. coli spikes indicates significant agricultural waste inputs contributing to hypoxic conditions",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-agency-unknown",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "Limited to single official report without independent water quality monitoring, upstream release data, or comparative historical patterns. Cannot fully exclude other contributing stressors during spawning migration.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.9
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-agency-stormflow",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "Documented nor'easter (Mar 31-Apr 1) created massive freshwater pulse and turbidity, causing dissolved oxygen to crash to 2.1 mg/L during vulnerable spawning migration. Official state determination aligns with observed environmental conditions.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-industry-biological",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "Report notes 'stressed returning herring population' during spring spawning migration. Migration stress compounds vulnerability to environmental stressors like hypoxia, contributing to mortality magnitude.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-industry-stormflow",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Nor'easter Mar 31-Apr 1 drove massive freshwater pulse and turbidity, causing dissolved oxygen to crash to 2.1 mg/L. This severe hypoxic event during spring spawning migration would be catastrophic for oxygen-sensitive river herring already stressed from migration.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-ngo-unknown",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "ngo",
+        "rationale": "Limited upstream monitoring data prevents complete assessment of all potential contributing factors. The report mentions a 'stressed returning herring population' which could indicate pre-existing stressors not fully captured in the available evidence.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-ngo-agricultural",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.2,
+        "persona": "ngo",
+        "rationale": "While the immediate trigger was the storm event, the severity of the dissolved oxygen crash suggests underlying water quality issues. The massive freshwater pulse from the nor'easter likely mobilized accumulated agricultural nutrients from the watershed, exacerbating oxygen depletion. The Albemarle Sound watershed contains significant agricultural land use that could contribute nutrient loading during storm runoff events.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.35
+      }
+    },
+    {
+      "wref": "AttributionBelief/albemarle-2022-04-ngo-stormflow",
+      "about": "FishKillEvent/albemarle-2022-04",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.75,
+        "persona": "ngo",
+        "rationale": "The official report directly attributes the kill to a nor'easter (Mar 31-Apr 1) that drove a massive freshwater pulse and turbidity surge into the sound. This storm event caused dissolved oxygen to crash to critically low levels (2.1 mg/L), well below the threshold needed for fish survival. The timing coincided with the spring spawning migration when river herring are particularly vulnerable to environmental stressors.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-agency-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.4,
+        "persona": "agency",
+        "rationale": "State agency could not identify an obvious natural cause and PFAS sampling was still ongoing, leaving significant uncertainty about the definitive cause",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-agency-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.6,
+        "persona": "agency",
+        "rationale": "Unusual liver lesions in fish necropsies combined with known upstream PFAS discharge history from Chemours facility suggests industrial contamination as the most likely cause, though direct chemical evidence is still being collected",
+        "sl_belief": 0.5,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-ngo-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "ngo",
+        "rationale": "While industrial contamination is strongly suspected, PFAS sampling is still ongoing and no definitive causal link has been established yet",
+        "sl_belief": 0.15,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.6,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-ngo-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "ngo",
+        "rationale": "Chemours Fayetteville Works 80km upstream with documented GenX/PFAS discharge history, unusual liver lesions in fish necropsy consistent with chemical exposure, ongoing PFAS sampling indicates suspected industrial contamination, and no obvious natural causes identified",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-industry-unknown",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.25,
+        "persona": "industry",
+        "rationale": "Report explicitly states 'No obvious natural cause' and limited diagnostic information available. Liver lesions are non-specific finding requiring further investigation.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.55
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-industry-thermal",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.25,
+        "persona": "industry",
+        "rationale": "Early October in Lower Cape Fear can experience thermal stratification breakdown. White perch are sensitive to rapid temperature changes and dissolved oxygen fluctuations during fall turnover.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.45
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-industry-biological",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "industry",
+        "rationale": "October timing aligns with fall turnover and potential disease outbreaks. Liver lesions reported in necropsy could indicate parasitic or bacterial infection common in white perch populations during seasonal stress.",
+        "sl_belief": 0.35,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.25,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-cape-fear-2021-10-industry-industrial",
+      "about": "FishKillEvent/lower-cape-fear-2021-10",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "While PFAS sampling is ongoing and Chemours facility is noted upstream, the 80km distance makes acute toxic impacts unlikely. Liver lesions could suggest chronic exposure but are non-specific. No water quality exceedances or permit violations documented.",
+        "sl_belief": 0.15,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.45,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-ngo-agricultural",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 1,
+        "persona": "ngo",
+        "rationale": "Ammonia spike (2.8 mg/L) measured downstream of swine CAFO cluster following heavy rainfall. This is a known hotspot with 3 events in 5 years. The elevated ammonia level is toxic to fish and consistent with agricultural runoff from swine operations.",
+        "sl_belief": 0.95,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.03,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.02
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-agency-unknown",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "While evidence strongly supports agricultural causes, limited observational data (single ammonia measurement, no temperature or DO data) leaves some uncertainty about potential contributing factors",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.6,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-agency-stormflow",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "agency",
+        "rationale": "Heavy rainfall 48h prior could have contributed through multiple pathways including sediment mobilization and general runoff, though the ammonia spike specifically points to agricultural sources being transported by stormflow rather than stormflow alone",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-agency-agricultural",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "Strong convergent evidence: (1) Ammonia spike of 2.8 mg/L is diagnostic of agricultural waste, particularly from swine operations; (2) Event occurred downstream of swine CAFO cluster; (3) Heavy rainfall 48h prior would mobilize waste lagoon overflow/runoff; (4) This is the 3rd event at this site in 5 years, indicating chronic agricultural pressure; (5) Official agency determination was agricultural runoff",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-industry-stormflow",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "Heavy rainfall 48h prior could have independently caused habitat disruption, sediment mobilization, or rapid DO depletion through organic matter decomposition, contributing to mortality.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/contentnea-2021-06-industry-agricultural",
+      "about": "FishKillEvent/contentnea-2021-06",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Measured ammonia spike (2.8 mg/L) exceeds acute toxicity thresholds for catfish. Location downstream of swine CAFO cluster with heavy rainfall 48h prior indicates stormwater-mobilized agricultural waste. Site history (3 kills in 5 years) suggests persistent agricultural source.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-ngo-biological",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 1,
+        "persona": "ngo",
+        "rationale": "Karenia brevis red tide confirmed by NC DMF with bloom visible in MODIS imagery. Official cause listed as harmful algal bloom. Warm SST (29°C) preceded event creating favorable conditions for HAB development.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-industry-thermal",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "Elevated SST of 29°C preceded the event and likely contributed to bloom development. High temperatures create favorable conditions for K. brevis growth and may have facilitated the unusual northward/inshore occurrence of this typically offshore species.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-industry-biological",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Direct confirmation of Karenia brevis red tide by state agency with satellite imagery corroboration. K. brevis is a well-documented ichthyotoxic dinoflagellate that produces brevetoxins lethal to fish. The 5,600 Atlantic croaker mortality is consistent with HAB-induced fish kills.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-agency-unknown",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.05,
+        "persona": "agency",
+        "rationale": "While the HAB is well-documented, the unusual location of K. brevis in the sound rather than its typical offshore/southern distribution introduces some uncertainty about potential contributing factors that may have facilitated this atypical bloom location.",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.85
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-agency-thermal",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "agency",
+        "rationale": "The elevated water temperature (29°C) preceding the event likely contributed as a stressor that may have reduced dissolved oxygen and increased metabolic demands on fish. While not the primary cause, thermal stress often acts synergistically with HABs to increase mortality.",
+        "sl_belief": 0.15,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.25,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/pamlico-sound-2020-09-agency-biological",
+      "about": "FishKillEvent/pamlico-sound-2020-09",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "The NC DMF confirmed Karenia brevis red tide as the official cause. This harmful algal bloom was detected through both direct sampling and MODIS satellite imagery. The warm sea surface temperature of 29°C provided conducive conditions for the bloom. While K. brevis is unusual for Pamlico Sound (typically found offshore/southern), the convergence of official confirmation, remote sensing validation, and environmental conditions strongly supports biological causation.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-agency-industrial",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "Jacksonville WWTP exceedance was reported concurrent with the hurricane event. Wastewater treatment plants often experience overflow conditions during extreme storm events, potentially releasing untreated or partially treated effluent that can contribute to fish mortality through oxygen depletion or toxic exposure.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-agency-stormflow",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "Hurricane Isaias passage directly coincides with fish kill timing. USGS gauge data shows 4x baseline discharge, indicating severe stormflow conditions. The official investigation attributed the kill to stormflow impacts, likely including sediment loading and associated oxygen depletion typical of post-hurricane runoff events.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-industry-industrial",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "Jacksonville WWTP exceedance was reported concurrent with the hurricane, but this appears to be storm-induced overflow rather than deliberate discharge. The industrial contribution is secondary to the primary stormflow impacts.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.5,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-industry-stormflow",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Hurricane Isaias directly impacted the area Aug 3-4, causing 4x baseline discharge. Storm-driven habitat disruption through sediment plumes and rapid flow changes is the primary driver, consistent with striped mullet mortality patterns during extreme weather events.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-ngo-industrial",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "ngo",
+        "rationale": "Jacksonville WWTP exceedance was reported concurrent with the hurricane. Sewer overflows during storm events can introduce untreated wastewater containing ammonia and organic pollutants that deplete oxygen. The timing and reported overflow strongly suggest this contributed to mortality.",
+        "sl_belief": 0.65,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/new-river-2020-08-ngo-stormflow",
+      "about": "FishKillEvent/new-river-2020-08",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.7,
+        "persona": "ngo",
+        "rationale": "Hurricane Isaias directly impacted the area with 4x baseline discharge recorded at USGS gauge. Storm-driven hypoxia from sediment resuspension and organic matter decomposition is a documented kill mechanism, especially for oxygen-sensitive species like striped mullet.",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-industry-agricultural",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "industry",
+        "rationale": "Report explicitly links the HAB to 'upstream nutrient loading', which in the Chowan watershed context typically indicates agricultural runoff contribution. However, this is an indirect cause - the proximate cause remains the biological bloom itself.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-industry-biological",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "industry",
+        "rationale": "Confirmed Microcystis bloom with satellite chlorophyll-a >40 µg/L indicates severe harmful algal bloom conditions. Site has documented recurrent HAB issues since 2015. The official cause designation as 'cyanobacteria bloom' aligns with the evidence. Gizzard shad are particularly susceptible to cyanotoxins produced by Microcystis.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-ngo-industrial",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "ngo",
+        "rationale": "While agricultural runoff is the primary driver, industrial facilities in the watershed may also contribute to nutrient loading through wastewater discharges. The persistent nature of HABs since 2015 suggests multiple pollution sources",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.4,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-ngo-agricultural",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.7,
+        "persona": "ngo",
+        "rationale": "Recurrent HAB site since 2015 explicitly linked to upstream nutrient loading. The Chowan River watershed has extensive agricultural land use that contributes nitrogen and phosphorus runoff, which fuels cyanobacteria blooms. High chlorophyll-a (>40 µg/L) indicates eutrophication from nutrient pollution",
+        "sl_belief": 0.75,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-ngo-biological",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "ngo",
+        "rationale": "Direct attribution to Microcystis cyanobacteria bloom confirmed by DEQ, but as an NGO analyst I recognize this is a symptom of upstream nutrient pollution rather than a root cause",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-agency-agricultural",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.15,
+        "persona": "agency",
+        "rationale": "While not the direct cause of mortality, the report explicitly links the recurrent HABs to 'upstream nutrient loading', which in the Chowan watershed context typically indicates agricultural runoff. This represents an underlying contributing factor to the conditions that enabled the cyanobacteria bloom.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/chowan-2019-07-agency-biological",
+      "about": "FishKillEvent/chowan-2019-07",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.85,
+        "persona": "agency",
+        "rationale": "The source report explicitly identifies a confirmed Microcystis bloom with satellite chlorophyll-a measurements exceeding 40 µg/L. The site has a documented history of harmful algal blooms (HABs) since 2015, and the official cause is listed as 'cyanobacteria bloom'. The report links these blooms to upstream nutrient loading, suggesting an agricultural contribution to the underlying conditions, but the proximate cause of mortality is biological.",
+        "sl_belief": 0.9,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.05
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-ngo-agricultural",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.2,
+        "persona": "ngo",
+        "rationale": "Report explicitly mentions 'nutrient-loaded basin (hog ops upstream)' indicating agricultural pollution from concentrated animal feeding operations contributing to the conditions that enabled the DO crash. While not the proximate cause, agricultural runoff created the underlying eutrophic conditions.",
+        "sl_belief": 0.7,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.15
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-ngo-biological",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "ngo",
+        "rationale": "The official cause is listed as 'low dissolved oxygen' which represents a biological process. The report describes a 'nighttime DO crash' which is characteristic of eutrophication-driven oxygen depletion during dark hours when photosynthesis ceases.",
+        "sl_belief": 0.8,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-ngo-thermal",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.45,
+        "persona": "ngo",
+        "rationale": "Direct evidence of extreme thermal conditions with surface temperatures >30°C for 6 consecutive days during mid-August heat. The report explicitly identifies this as a 'classic Neuse menhaden die-off' pattern where thermal stress is a primary driver.",
+        "sl_belief": 0.85,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.05,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.1
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-agency-unknown",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 1,
+        "persona": "agency",
+        "rationale": "No upstream observations, releases, or prior reports were provided in the context. Without water quality data, temperature measurements, discharge records, or historical precedent for this location, I cannot establish evidence-based attribution. The kill involved 18,000 Atlantic menhaden in the Lower Neuse River near New Bern, NC on 2019-08-14, but without supporting environmental data or release records, the cause remains undetermined.",
+        "sl_belief": 0,
+        "evidence_ids": [],
+        "sl_base_rate": 0.167,
+        "sl_disbelief": 0,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 1
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-industry-unknown",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.2,
+        "persona": "industry",
+        "rationale": "Without water quality measurements, dissolved oxygen data, or algal cell counts from the event period, definitive attribution is not possible. Multiple natural stressors could have acted synergistically.",
+        "sl_belief": 0.2,
+        "evidence_ids": [],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-industry-thermal",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "Mid-August represents peak thermal stress period for estuarine fish in North Carolina. Menhaden are particularly vulnerable to temperature-related stress when water temperatures exceed their thermal tolerance, especially in combination with other stressors.",
+        "sl_belief": 0.25,
+        "evidence_ids": [],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/lower-neuse-2019-08-industry-biological",
+      "about": "FishKillEvent/lower-neuse-2019-08",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.5,
+        "persona": "industry",
+        "rationale": "Atlantic menhaden in the Lower Neuse River during mid-August are highly susceptible to harmful algal blooms and associated low dissolved oxygen events. This species forms dense schools in warm, shallow waters where oxygen depletion can rapidly cause mass mortality. The timing coincides with peak summer temperatures when stratification and algal activity are highest.",
+        "sl_belief": 0.3,
+        "evidence_ids": [],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-ngo-unknown",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "ngo",
+        "rationale": "Limited direct evidence available for this specific event. No water quality parameters beyond temperature, no dissolved oxygen readings, no nutrient data, and no specific industrial discharge records for the Severn River area.",
+        "sl_belief": 0.3,
+        "evidence_ids": [],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-ngo-industrial",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.65,
+        "persona": "ngo",
+        "rationale": "Recent fish kill in nearby Potomac River explicitly mentions elevated industrial discharge from upstream facility according to EPA TRI filings. Geographic and temporal proximity (9 days prior, same watershed region) suggests possible connection to industrial releases affecting the broader Chesapeake Bay watershed.",
+        "sl_belief": 0.45,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-agency-unknown",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.4,
+        "persona": "agency",
+        "rationale": "Limited observational data available. No water quality parameters beyond temperature, no dissolved oxygen readings, no specific release data for Severn River watershed. Multiple causes could be interacting.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-agency-industrial",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.25,
+        "persona": "agency",
+        "rationale": "Recent Potomac River fish kill report indicates elevated industrial discharge from upstream facility in the region. While different watershed, suggests active industrial releases during this timeframe that could affect nearby water bodies.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-agency-thermal",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.35,
+        "persona": "agency",
+        "rationale": "WASD2 station recorded 27.8°C on April 22, which exceeds typical thermal tolerance for Menhaden (stress above 25°C). However, only one station shows elevated temperature and temporal/spatial relationship to kill site is uncertain.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-industry-industrial",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "industrial",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "industry",
+        "rationale": "Recent Potomac report mentions elevated industrial discharge, but that's a different watershed. No direct evidence of industrial impact at Severn River site.",
+        "sl_belief": 0.05,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04"
+        ],
+        "sl_base_rate": 0.1,
+        "sl_disbelief": 0.7,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-industry-thermal",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.1,
+        "persona": "industry",
+        "rationale": "WASD2 station shows elevated temperature (27.8°C) but relationship to kill site unclear. YKTV2 temperatures appear normal for season.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.15,
+        "sl_disbelief": 0.5,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.4
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-industry-biological",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "April timing coincides with Menhaden spawning season when fish are more susceptible to disease and stress. Temperature data from YKTV2 shows stable conditions around 17°C which is suitable for Menhaden but could support pathogen growth.",
+        "sl_belief": 0.25,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T14:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.25,
+        "sl_disbelief": 0.15,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.6
+      }
+    },
+    {
+      "wref": "AttributionBelief/webhook-e2e-2026-04-24-industry-unknown",
+      "about": "FishKillEvent/webhook-e2e-2026-04-24",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-opus-4",
+        "share": 0.5,
+        "persona": "industry",
+        "rationale": "Insufficient water quality data (no DO measurements, limited temperature coverage) and no clear environmental stressors identified in the available evidence. Small scale of mortality (100 fish) suggests localized event.",
+        "sl_belief": 0.1,
+        "evidence_ids": [],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/test-2026-04-23-rhode-industry-thermal",
+      "about": "FishKillEvent/test-2026-04-23-rhode",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.45,
+        "persona": "industry",
+        "rationale": "The water temperature data from the WASD2 station shows consistently high temperatures (around 27.8°C) on the day of the fish kill event, which is significantly higher than the temperatures observed at the upstream YKTV2 station (around 17.5°C). This suggests that thermal stress from the elevated water temperatures may have been a contributing factor to the fish kill.",
+        "sl_belief": 0.5,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.4,
+        "sl_disbelief": 0.25,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.25
+      }
+    },
+    {
+      "wref": "AttributionBelief/test-2026-04-23-rhode-agency-thermal",
+      "about": "FishKillEvent/test-2026-04-23-rhode",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "agency",
+        "rationale": "The temperature observations at the WASD2 station show a significant increase in water temperature on the day of the event, reaching 27.8°C, which is higher than the typical water temperatures in the area. This suggests the possibility of a thermal stress event contributing to the fish kill.",
+        "sl_belief": 0.4,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/test-2026-04-23-rhode-ngo-thermal",
+      "about": "FishKillEvent/test-2026-04-23-rhode",
+      "data": {
+        "cause": "thermal",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.4,
+        "persona": "ngo",
+        "rationale": "The water temperature observations show a significant temperature differential between the two nearby stations, with the WASD2 station recording a much higher temperature of 27.8°C compared to the 17.5°C at the YKTV2 station. This large temperature gradient suggests the possibility of a thermal discharge or other localized heating event that could be contributing to the fish kill.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-ngo",
+        "sl_uncertainty": 0.3
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-industry-unknown",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.1,
+        "persona": "industry",
+        "rationale": "Given the limited information provided, there is some inherent uncertainty about the exact cause of the fish kill event. Additional water quality data and monitoring would be needed to rule out other potential factors.",
+        "sl_belief": 0.1,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.8
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-industry-biological",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "biological",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.3,
+        "persona": "industry",
+        "rationale": "The event report does not mention any specific water quality issues or industrial releases, but the large-scale fish mortality suggests the possibility of a biological stressor, such as a harmful algal bloom or disease outbreak, that was exacerbated by the stormflow conditions.",
+        "sl_belief": 0.3,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/severn-2025-11-industry-stormflow",
+      "about": "FishKillEvent/severn-2025-11",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "industry",
+        "rationale": "The event report indicates that the fish kill occurred shortly after the passage of a post-tropical storm, with a massive stormwater surge and urban runoff from Annapolis leading to a visible sediment plume. This suggests that stormflow and associated habitat disruption are the primary drivers of the observed fish mortality.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.5,
+        "sl_disbelief": 0.2,
+        "prompt_version": "v1-2026-04-23-industry",
+        "sl_uncertainty": 0.2
+      }
+    },
+    {
+      "wref": "AttributionBelief/fishkillevent-severn-2025-11-agency-unknown",
+      "about": "",
+      "data": {
+        "cause": "unknown",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.2,
+        "persona": "agency",
+        "rationale": "While the context provides evidence of a stormflow event, the specific causal mechanisms leading to the fish kill are not fully clear. Additional investigation and data collection would be needed to rule out other potential contributing factors, such as industrial discharges or biological factors.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.2,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.7
+      }
+    },
+    {
+      "wref": "AttributionBelief/fishkillevent-severn-2025-11-agency-agricultural",
+      "about": "",
+      "data": {
+        "cause": "agricultural",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.2,
+        "persona": "agency",
+        "rationale": "The Severn River watershed includes agricultural areas upstream of Annapolis, and stormflow events can mobilize nutrient-rich runoff from these sources. This may have contributed to the fish kill, though the context does not provide direct evidence of agricultural impacts.",
+        "sl_belief": 0.2,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.3,
+        "sl_disbelief": 0.3,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.5
+      }
+    },
+    {
+      "wref": "AttributionBelief/fishkillevent-severn-2025-11-agency-stormflow",
+      "about": "",
+      "data": {
+        "cause": "stormflow",
+        "model": "anthropic/claude-3-haiku",
+        "share": 0.6,
+        "persona": "agency",
+        "rationale": "The provided context indicates that a post-tropical storm passage caused a massive stormwater surge and urban runoff into the Severn River near Annapolis, Maryland. This is supported by the visible sediment plume observed in satellite imagery, which is a typical signature of stormflow and runoff events.",
+        "sl_belief": 0.6,
+        "evidence_ids": [
+          "wh:fish-kill-attribution/state-fishkills/FishKillReport/severn-2025-11"
+        ],
+        "sl_base_rate": 0.5,
+        "sl_disbelief": 0.1,
+        "prompt_version": "v1-2026-04-23-agency",
+        "sl_uncertainty": 0.3
+      }
+    },
     {
       "wref": "AttributionBelief/potomac-2026-04-agency-unknown",
       "about": "FishKillEvent/potomac-2026-04",
@@ -547,27 +3099,6 @@
       }
     },
     {
-      "wref": "AttributionBelief/test-2026-04-23-rhode-ngo-thermal",
-      "about": "FishKillEvent/test-2026-04-23-rhode",
-      "data": {
-        "cause": "thermal",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.6,
-        "persona": "ngo",
-        "rationale": "The temperature data from the nearby NOAA stations indicates that water temperatures in the area spiked up to 20.5°C in the hours leading up to the reported fish kill event. This level of thermal stress is a plausible cause for the mortality of the white perch population.",
-        "sl_belief": 0.6,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst"
-        ],
-        "sl_base_rate": 0.4,
-        "sl_disbelief": 0.2,
-        "prompt_version": "v1-2026-04-23-ngo",
-        "sl_uncertainty": 0.2
-      }
-    },
-    {
       "wref": "AttributionBelief/test-2026-04-23-rhode-agency-unknown",
       "about": "FishKillEvent/test-2026-04-23-rhode",
       "data": {
@@ -582,26 +3113,6 @@
         "sl_disbelief": 0.1,
         "prompt_version": "v1-2026-04-23-agency",
         "sl_uncertainty": 0.8
-      }
-    },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-rhode-agency-thermal",
-      "about": "FishKillEvent/test-2026-04-23-rhode",
-      "data": {
-        "cause": "thermal",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.7,
-        "persona": "agency",
-        "rationale": "The water temperature data from the nearby YKTV2 and WASD2 stations shows that the water temperature in the area was elevated, reaching up to 20.5°C around the time of the fish kill event. This unusually high water temperature could have stressed the fish and contributed to the mortality event.",
-        "sl_belief": 0.65,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
-        ],
-        "sl_base_rate": 0.2,
-        "sl_disbelief": 0.05,
-        "prompt_version": "v1-2026-04-23-agency",
-        "sl_uncertainty": 0.3
       }
     },
     {
@@ -639,29 +3150,127 @@
         "prompt_version": "v1-2026-04-23-industry",
         "sl_uncertainty": 0.5
       }
-    },
-    {
-      "wref": "AttributionBelief/test-2026-04-23-rhode-industry-thermal",
-      "about": "FishKillEvent/test-2026-04-23-rhode",
-      "data": {
-        "cause": "thermal",
-        "model": "anthropic/claude-3-haiku",
-        "share": 0.6,
-        "persona": "industry",
-        "rationale": "The water temperature data from the nearby YKTV2 and WASD2 stations show a relatively high and stable temperature, ranging from 17.1°C to 17.6°C at YKTV2 and 20.3°C to 20.5°C at WASD2. These temperatures are on the high end for the region and time of year, and could contribute to thermal stress on the fish population, leading to the observed fish kill.",
-        "sl_belief": 0.5,
-        "evidence_ids": [
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst",
-          "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
-        ],
-        "sl_base_rate": 0.5,
-        "sl_disbelief": 0.1,
-        "prompt_version": "v1-2026-04-23-industry",
-        "sl_uncertainty": 0.4
-      }
     }
   ],
   "reports": {
+    "lower-neuse-2025-09": {
+      "wref": "FishKillReport/lower-neuse-2025-09",
+      "reporter": "nc-deq",
+      "narrative": "Largest kill of the decade. Post-tropical system passed Aug 30. Swine lagoons downstream of Kinston reportedly breached. Combined nutrient surge + thermal stress. Estimated 22k menhaden washed ashore over 10km of shoreline.",
+      "reported_cause": "low dissolved oxygen",
+      "waterbody": "Neuse River",
+      "event_date": "2025-09-03"
+    },
+    "pamlico-sound-2025-07": {
+      "wref": "FishKillReport/pamlico-sound-2025-07",
+      "reporter": "nc-wrc",
+      "narrative": "Recurring red tide (Karenia) — 5th year in a row. SST 30°C+. Bloom covered ~120 km² per MODIS. Dead zone overlap with menhaden schooling area.",
+      "reported_cause": "harmful algal bloom",
+      "waterbody": "Pamlico Sound",
+      "event_date": "2025-07-18"
+    },
+    "lower-cape-fear-2024-11": {
+      "wref": "FishKillReport/lower-cape-fear-2024-11",
+      "reporter": "nc-deq",
+      "narrative": "Unusual kill — cold-season, no apparent natural trigger. EPA TRI shows elevated chloride/metals discharge from upstream industrial site (Oct reporting period). Under investigation.",
+      "waterbody": "Cape Fear River",
+      "event_date": "2024-11-05"
+    },
+    "white-oak-2024-08": {
+      "wref": "FishKillReport/white-oak-2024-08",
+      "reporter": "nc-deq",
+      "narrative": "Tropical Storm Debby Aug 7-8. Salinity crashed from 18 ppt to 3 ppt within 12h. Fish unable to osmoregulate. Estuarine-specific kill pattern.",
+      "reported_cause": "stormflow",
+      "waterbody": "White Oak River",
+      "event_date": "2024-08-08"
+    },
+    "upper-tar-2023-09": {
+      "wref": "FishKillReport/upper-tar-2023-09",
+      "reporter": "nc-wrc",
+      "narrative": "Dolichospermum (Anabaena) bloom confirmed. Elevated microcystin (toxin) levels. Low-flow conditions (drought) + warm temps. Small kill but flagged because of toxin presence.",
+      "reported_cause": "harmful algal bloom",
+      "waterbody": "Tar River",
+      "event_date": "2023-09-22"
+    },
+    "pamlico-2023-08": {
+      "wref": "FishKillReport/pamlico-2023-08",
+      "reporter": "nc-deq",
+      "narrative": "Heat dome event. Surface temps 31-32°C for 5 days, nighttime lows stayed >26°C. DO crash at dawn (<1 mg/L measured). Stratified water column, no mixing from wind.",
+      "reported_cause": "thermal stress",
+      "waterbody": "Pamlico River",
+      "event_date": "2023-08-06"
+    },
+    "ne-cape-fear-2023-05": {
+      "wref": "FishKillReport/ne-cape-fear-2023-05",
+      "reporter": "nc-deq",
+      "narrative": "Minor swine lagoon seepage reported by operator. pH 5.8, elevated nitrogen. Fish kill localized to 2km reach. No hurricane or rainfall correlation.",
+      "reported_cause": "agricultural runoff",
+      "waterbody": "NE Cape Fear River",
+      "event_date": "2023-05-14"
+    },
+    "middle-neuse-2022-09": {
+      "wref": "FishKillReport/middle-neuse-2022-09",
+      "reporter": "nc-deq",
+      "narrative": "Hurricane Ian passage Sep 29-30. Historic floodwaters breached 6 swine lagoons upstream (Duplin/Greene counties). Ammonia and E. coli spikes measured. Classic post-hurricane Neuse die-off.",
+      "reported_cause": "hypoxia",
+      "waterbody": "Neuse River",
+      "event_date": "2022-09-30"
+    },
+    "albemarle-2022-04": {
+      "wref": "FishKillReport/albemarle-2022-04",
+      "reporter": "nc-wrc",
+      "narrative": "Spring spawning migration. Nor'easter Mar 31-Apr 1 drove massive freshwater pulse + turbidity. Dissolved oxygen crashed to 2.1 mg/L. Compounded by stressed returning herring population.",
+      "reported_cause": "stormflow",
+      "waterbody": "Albemarle Sound",
+      "event_date": "2022-04-03"
+    },
+    "lower-cape-fear-2021-10": {
+      "wref": "FishKillReport/lower-cape-fear-2021-10",
+      "reporter": "nc-deq",
+      "narrative": "No obvious natural cause. PFAS sampling ongoing — Chemours Fayetteville Works 80km upstream (GenX discharge history). Unusual liver lesions reported in necropsy.",
+      "waterbody": "Cape Fear River",
+      "event_date": "2021-10-09"
+    },
+    "contentnea-2021-06": {
+      "wref": "FishKillReport/contentnea-2021-06",
+      "reporter": "nc-deq",
+      "narrative": "Heavy rainfall 48h prior. Ammonia spike measured (2.8 mg/L) downstream of swine CAFO cluster. Known hotspot — 3rd event at this site in 5 years.",
+      "reported_cause": "agricultural runoff",
+      "waterbody": "Contentnea Creek",
+      "event_date": "2021-06-18"
+    },
+    "pamlico-sound-2020-09": {
+      "wref": "FishKillReport/pamlico-sound-2020-09",
+      "reporter": "nc-wrc",
+      "narrative": "Karenia brevis red tide confirmed by NC DMF. Bloom extent visible in MODIS imagery. Unusual for sound — normally offshore/southern. Warm SST (29°C) preceded event.",
+      "reported_cause": "harmful algal bloom",
+      "waterbody": "Pamlico Sound",
+      "event_date": "2020-09-12"
+    },
+    "new-river-2020-08": {
+      "wref": "FishKillReport/new-river-2020-08",
+      "reporter": "nc-deq",
+      "narrative": "Hurricane Isaias passed through Aug 3-4. USGS gauge at Gum Branch recorded 4x baseline discharge. Sediment plume + sewer overflow suspected (Jacksonville WWTP exceedance reported).",
+      "reported_cause": "stormflow",
+      "waterbody": "New River",
+      "event_date": "2020-08-04"
+    },
+    "chowan-2019-07": {
+      "wref": "FishKillReport/chowan-2019-07",
+      "reporter": "nc-deq",
+      "narrative": "Confirmed Microcystis bloom. DEQ satellite chlorophyll-a >40 µg/L. Recurrent HAB site since 2015; linked to upstream nutrient loading.",
+      "reported_cause": "cyanobacteria bloom",
+      "waterbody": "Chowan River",
+      "event_date": "2019-07-22"
+    },
+    "lower-neuse-2019-08": {
+      "wref": "FishKillReport/lower-neuse-2019-08",
+      "reporter": "nc-deq",
+      "narrative": "Prolonged mid-August heat. Buoy data from PT#1 (Cherry Point) reported surface temps >30°C for 6 consecutive days. Classic Neuse menhaden die-off — thermal stress compounded by nighttime DO crash. Nutrient-loaded basin (hog ops upstream).",
+      "reported_cause": "low dissolved oxygen",
+      "waterbody": "Neuse River",
+      "event_date": "2019-08-14"
+    },
     "potomac-2026-04": {
       "wref": "FishKillReport/potomac-2026-04",
       "reporter": "va-deq",
@@ -695,6 +3304,306 @@
     }
   },
   "evidence": {
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2025-09",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Neuse River",
+      "data": {
+        "lat": 35.03,
+        "lon": -76.7,
+        "date": "2025-09-03",
+        "status": "reported",
+        "report_id": "lower-neuse-2025-09",
+        "waterbody": "Neuse River",
+        "raw_payload": "Largest kill of the decade. Post-tropical system passed Aug 30. Swine lagoons downstream of Kinston reportedly breached. Combined nutrient surge + thermal stress. Estimated 22k menhaden washed ashore over 10km of shoreline.",
+        "location_name": "Lower Neuse near Oriental, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "low dissolved oxygen",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 22000
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2025-07",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Pamlico Sound",
+      "data": {
+        "lat": 35.11,
+        "lon": -75.99,
+        "date": "2025-07-18",
+        "status": "reported",
+        "report_id": "pamlico-sound-2025-07",
+        "waterbody": "Pamlico Sound",
+        "raw_payload": "Recurring red tide (Karenia) — 5th year in a row. SST 30°C+. Bloom covered ~120 km² per MODIS. Dead zone overlap with menhaden schooling area.",
+        "location_name": "Pamlico Sound near Ocracoke, NC",
+        "source_agency": "nc-wrc",
+        "official_cause": "harmful algal bloom",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 8900
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2024-11",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Cape Fear River",
+      "data": {
+        "lat": 34.3,
+        "lon": -77.97,
+        "date": "2024-11-05",
+        "status": "reported",
+        "report_id": "lower-cape-fear-2024-11",
+        "waterbody": "Cape Fear River",
+        "raw_payload": "Unusual kill — cold-season, no apparent natural trigger. EPA TRI shows elevated chloride/metals discharge from upstream industrial site (Oct reporting period). Under investigation.",
+        "location_name": "Lower Cape Fear near Leland, NC",
+        "source_agency": "nc-deq",
+        "official_cause": null,
+        "primary_species": "Hybrid striped bass",
+        "estimated_mortality": 540
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/white-oak-2024-08",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · White Oak River",
+      "data": {
+        "lat": 34.68,
+        "lon": -77.12,
+        "date": "2024-08-08",
+        "status": "reported",
+        "report_id": "white-oak-2024-08",
+        "waterbody": "White Oak River",
+        "raw_payload": "Tropical Storm Debby Aug 7-8. Salinity crashed from 18 ppt to 3 ppt within 12h. Fish unable to osmoregulate. Estuarine-specific kill pattern.",
+        "location_name": "White Oak River near Swansboro, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "stormflow",
+        "primary_species": "Atlantic croaker",
+        "estimated_mortality": 3800
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/upper-tar-2023-09",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Tar River",
+      "data": {
+        "lat": 35.9,
+        "lon": -77.53,
+        "date": "2023-09-22",
+        "status": "reported",
+        "report_id": "upper-tar-2023-09",
+        "waterbody": "Tar River",
+        "raw_payload": "Dolichospermum (Anabaena) bloom confirmed. Elevated microcystin (toxin) levels. Low-flow conditions (drought) + warm temps. Small kill but flagged because of toxin presence.",
+        "location_name": "Upper Tar River near Tarboro, NC",
+        "source_agency": "nc-wrc",
+        "official_cause": "harmful algal bloom",
+        "primary_species": "Largemouth bass",
+        "estimated_mortality": 620
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-2023-08",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Pamlico River",
+      "data": {
+        "lat": 35.55,
+        "lon": -77.05,
+        "date": "2023-08-06",
+        "status": "reported",
+        "report_id": "pamlico-2023-08",
+        "waterbody": "Pamlico River",
+        "raw_payload": "Heat dome event. Surface temps 31-32°C for 5 days, nighttime lows stayed >26°C. DO crash at dawn (<1 mg/L measured). Stratified water column, no mixing from wind.",
+        "location_name": "Pamlico River near Washington, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "thermal stress",
+        "primary_species": "Spot",
+        "estimated_mortality": 2200
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/ne-cape-fear-2023-05",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · NE Cape Fear River",
+      "data": {
+        "lat": 34.55,
+        "lon": -77.92,
+        "date": "2023-05-14",
+        "status": "reported",
+        "report_id": "ne-cape-fear-2023-05",
+        "waterbody": "NE Cape Fear River",
+        "raw_payload": "Minor swine lagoon seepage reported by operator. pH 5.8, elevated nitrogen. Fish kill localized to 2km reach. No hurricane or rainfall correlation.",
+        "location_name": "NE Cape Fear River near Burgaw, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "agricultural runoff",
+        "primary_species": "Bluegill",
+        "estimated_mortality": 950
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/middle-neuse-2022-09",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Neuse River",
+      "data": {
+        "lat": 35.26,
+        "lon": -77.58,
+        "date": "2022-09-30",
+        "status": "reported",
+        "report_id": "middle-neuse-2022-09",
+        "waterbody": "Neuse River",
+        "raw_payload": "Hurricane Ian passage Sep 29-30. Historic floodwaters breached 6 swine lagoons upstream (Duplin/Greene counties). Ammonia and E. coli spikes measured. Classic post-hurricane Neuse die-off.",
+        "location_name": "Middle Neuse near Kinston, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "hypoxia",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 12500
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/albemarle-2022-04",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Albemarle Sound",
+      "data": {
+        "lat": 36.05,
+        "lon": -76.35,
+        "date": "2022-04-03",
+        "status": "reported",
+        "report_id": "albemarle-2022-04",
+        "waterbody": "Albemarle Sound",
+        "raw_payload": "Spring spawning migration. Nor'easter Mar 31-Apr 1 drove massive freshwater pulse + turbidity. Dissolved oxygen crashed to 2.1 mg/L. Compounded by stressed returning herring population.",
+        "location_name": "Albemarle Sound near Columbia, NC",
+        "source_agency": "nc-wrc",
+        "official_cause": "stormflow",
+        "primary_species": "River herring",
+        "estimated_mortality": 6200
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-cape-fear-2021-10",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Cape Fear River",
+      "data": {
+        "lat": 34.23,
+        "lon": -77.94,
+        "date": "2021-10-09",
+        "status": "reported",
+        "report_id": "lower-cape-fear-2021-10",
+        "waterbody": "Cape Fear River",
+        "raw_payload": "No obvious natural cause. PFAS sampling ongoing — Chemours Fayetteville Works 80km upstream (GenX discharge history). Unusual liver lesions reported in necropsy.",
+        "location_name": "Lower Cape Fear River near Wilmington, NC",
+        "source_agency": "nc-deq",
+        "official_cause": null,
+        "primary_species": "White perch",
+        "estimated_mortality": 800
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/contentnea-2021-06",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Contentnea Creek",
+      "data": {
+        "lat": 35.45,
+        "lon": -77.67,
+        "date": "2021-06-18",
+        "status": "reported",
+        "report_id": "contentnea-2021-06",
+        "waterbody": "Contentnea Creek",
+        "raw_payload": "Heavy rainfall 48h prior. Ammonia spike measured (2.8 mg/L) downstream of swine CAFO cluster. Known hotspot — 3rd event at this site in 5 years.",
+        "location_name": "Contentnea Creek near Snow Hill, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "agricultural runoff",
+        "primary_species": "Channel catfish",
+        "estimated_mortality": 1400
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/pamlico-sound-2020-09",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Pamlico Sound",
+      "data": {
+        "lat": 35.2,
+        "lon": -75.69,
+        "date": "2020-09-12",
+        "status": "reported",
+        "report_id": "pamlico-sound-2020-09",
+        "waterbody": "Pamlico Sound",
+        "raw_payload": "Karenia brevis red tide confirmed by NC DMF. Bloom extent visible in MODIS imagery. Unusual for sound — normally offshore/southern. Warm SST (29°C) preceded event.",
+        "location_name": "Pamlico Sound off Hatteras, NC",
+        "source_agency": "nc-wrc",
+        "official_cause": "harmful algal bloom",
+        "primary_species": "Atlantic croaker",
+        "estimated_mortality": 5600
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/new-river-2020-08",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · New River",
+      "data": {
+        "lat": 34.755,
+        "lon": -77.433,
+        "date": "2020-08-04",
+        "status": "reported",
+        "report_id": "new-river-2020-08",
+        "waterbody": "New River",
+        "raw_payload": "Hurricane Isaias passed through Aug 3-4. USGS gauge at Gum Branch recorded 4x baseline discharge. Sediment plume + sewer overflow suspected (Jacksonville WWTP exceedance reported).",
+        "location_name": "New River near Jacksonville, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "stormflow",
+        "primary_species": "Striped mullet",
+        "estimated_mortality": 2100
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/chowan-2019-07",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Chowan River",
+      "data": {
+        "lat": 36.07,
+        "lon": -76.61,
+        "date": "2019-07-22",
+        "status": "reported",
+        "report_id": "chowan-2019-07",
+        "waterbody": "Chowan River",
+        "raw_payload": "Confirmed Microcystis bloom. DEQ satellite chlorophyll-a >40 µg/L. Recurrent HAB site since 2015; linked to upstream nutrient loading.",
+        "location_name": "Chowan River near Edenton, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "cyanobacteria bloom",
+        "primary_species": "Gizzard shad",
+        "estimated_mortality": 3400
+      }
+    },
+    "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08": {
+      "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/lower-neuse-2019-08",
+      "kind": "report",
+      "source": "State",
+      "label": "State · report · Neuse River",
+      "data": {
+        "lat": 35.103,
+        "lon": -77.038,
+        "date": "2019-08-14",
+        "status": "reported",
+        "report_id": "lower-neuse-2019-08",
+        "waterbody": "Neuse River",
+        "raw_payload": "Prolonged mid-August heat. Buoy data from PT#1 (Cherry Point) reported surface temps >30°C for 6 consecutive days. Classic Neuse menhaden die-off — thermal stress compounded by nighttime DO crash. Nutrient-loaded basin (hog ops upstream).",
+        "location_name": "Lower Neuse River near New Bern, NC",
+        "source_agency": "nc-deq",
+        "official_cause": "low dissolved oxygen",
+        "primary_species": "Atlantic menhaden",
+        "estimated_mortality": 18000
+      }
+    },
     "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04": {
       "wref": "wh:fish-kill-attribution/state-fishkills/FishKillReport/potomac-2026-04",
       "kind": "report",
@@ -779,43 +3688,29 @@
       "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
       "kind": "observation",
       "source": "NOAA",
-      "label": "NOAA · sst_c · 20.3 C · 2026-04-22T00:00:00Z",
+      "label": "NOAA · sst_c · 27.8 C · 2026-04-22T00:00:00Z",
       "data": {
         "unit": "C",
-        "value": 20.3,
+        "value": 27.8,
         "station": "Station/WASD2@v1",
         "parameter": "sst_c",
         "timestamp": "2026-04-22T00:00:00Z",
-        "quality_flag": "raw",
-        "source_system": "noaa-erddap-ndbc"
+        "quality_flag": "corrected",
+        "source_system": "noaa-erddap-ndbc",
+        "correction_note": "final-4: correction-reactor w/ identity-fields fix (cause/persona/prompt_version)"
       }
     },
-    "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst": {
-      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst",
+    "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T14:00:00Z-sst": {
+      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T14:00:00Z-sst",
       "kind": "observation",
       "source": "NOAA",
-      "label": "NOAA · sst_c · 20.4 C · 2026-04-21T23:30:00Z",
+      "label": "NOAA · sst_c · 17.1 C · 2026-04-22T14:00:00Z",
       "data": {
         "unit": "C",
-        "value": 20.4,
-        "station": "Station/WASD2@v1",
+        "value": 17.1,
+        "station": "Station/YKTV2@v1",
         "parameter": "sst_c",
-        "timestamp": "2026-04-21T23:30:00Z",
-        "quality_flag": "raw",
-        "source_system": "noaa-erddap-ndbc"
-      }
-    },
-    "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst": {
-      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst",
-      "kind": "observation",
-      "source": "NOAA",
-      "label": "NOAA · sst_c · 20.4 C · 2026-04-21T23:00:00Z",
-      "data": {
-        "unit": "C",
-        "value": 20.4,
-        "station": "Station/WASD2@v1",
-        "parameter": "sst_c",
-        "timestamp": "2026-04-21T23:00:00Z",
+        "timestamp": "2026-04-22T14:00:00Z",
         "quality_flag": "raw",
         "source_system": "noaa-erddap-ndbc"
       }
@@ -834,21 +3729,6 @@
         "quality_flag": "raw",
         "source_system": "noaa-erddap-ndbc"
       }
-    },
-    "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst": {
-      "wref": "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst",
-      "kind": "observation",
-      "source": "NOAA",
-      "label": "NOAA · sst_c · 17.1 C · 2026-04-21T21:00:00Z",
-      "data": {
-        "unit": "C",
-        "value": 17.1,
-        "station": "Station/YKTV2@v1",
-        "parameter": "sst_c",
-        "timestamp": "2026-04-21T21:00:00Z",
-        "quality_flag": "raw",
-        "source_system": "noaa-erddap-ndbc"
-      }
     }
   },
   "pipelineHealth": {
@@ -856,16 +3736,16 @@
       {
         "repo": "fish-kill-attribution/noaa-sst-daily",
         "label": "NOAA",
-        "lastCommitAt": "2026-04-24T06:00:41.551Z",
-        "commitCount24h": 5,
+        "lastCommitAt": "2026-04-24T16:51:34.757Z",
+        "commitCount24h": 18,
         "failureCount": 0,
         "status": "healthy"
       },
       {
         "repo": "fish-kill-attribution/usgs-nwis",
         "label": "USGS",
-        "lastCommitAt": "2026-04-24T06:01:58.303Z",
-        "commitCount24h": 5,
+        "lastCommitAt": "2026-04-24T17:31:44.260Z",
+        "commitCount24h": 6,
         "failureCount": 0,
         "status": "healthy"
       },
@@ -880,12 +3760,159 @@
       {
         "repo": "fish-kill-attribution/state-fishkills",
         "label": "State",
-        "lastCommitAt": "2026-04-24T00:23:24.178Z",
-        "commitCount24h": 3,
+        "lastCommitAt": "2026-04-24T18:15:28.447Z",
+        "commitCount24h": 5,
         "failureCount": 0,
         "status": "healthy"
       }
     ],
-    "collectedAt": "2026-04-24T13:42:43.972Z"
+    "collectedAt": "2026-04-24T18:46:16.078Z"
+  },
+  "satelliteScenes": [],
+  "beliefVersions": {
+    "AttributionBelief/test-2026-04-23-rhode-industry-thermal": [
+      {
+        "version": 1,
+        "commitTime": 1776984096483,
+        "commitId": "019dbc81-7e6e-7275-9118-6bf1b024650b",
+        "commitMessage": "industry attribution for FishKillEvent/test-2026-04-23-rhode",
+        "operation": "add",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.6,
+          "persona": "industry",
+          "rationale": "The water temperature data from the nearby YKTV2 and WASD2 stations show a relatively high and stable temperature, ranging from 17.1°C to 17.6°C at YKTV2 and 20.3°C to 20.5°C at WASD2. These temperatures are on the high end for the region and time of year, and could contribute to thermal stress on the fish population, leading to the observed fish kill.",
+          "sl_belief": 0.5,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-21T21:00:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.5,
+          "sl_disbelief": 0.1,
+          "prompt_version": "v1-2026-04-23-industry",
+          "sl_uncertainty": 0.4
+        }
+      },
+      {
+        "version": 2,
+        "commitTime": 1777049521045,
+        "commitId": "019dc067-cb1c-778f-9858-089bbbe64560",
+        "commitMessage": "correction-reactor: revised industry beliefs for FishKillEvent/test-2026-04-23-rhode (trigger=wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst)",
+        "operation": "revise",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.45,
+          "persona": "industry",
+          "rationale": "The water temperature data from the WASD2 station shows consistently high temperatures (around 27.8°C) on the day of the fish kill event, which is significantly higher than the temperatures observed at the upstream YKTV2 station (around 17.5°C). This suggests that thermal stress from the elevated water temperatures may have been a contributing factor to the fish kill.",
+          "sl_belief": 0.5,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.4,
+          "sl_disbelief": 0.25,
+          "prompt_version": "v1-2026-04-23-industry",
+          "sl_uncertainty": 0.25
+        }
+      }
+    ],
+    "AttributionBelief/test-2026-04-23-rhode-agency-thermal": [
+      {
+        "version": 1,
+        "commitTime": 1776984105722,
+        "commitId": "019dbc81-a273-7829-a0d8-a83dd8e7cc0d",
+        "commitMessage": "agency attribution for FishKillEvent/test-2026-04-23-rhode",
+        "operation": "add",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.7,
+          "persona": "agency",
+          "rationale": "The water temperature data from the nearby YKTV2 and WASD2 stations shows that the water temperature in the area was elevated, reaching up to 20.5°C around the time of the fish kill event. This unusually high water temperature could have stressed the fish and contributed to the mortality event.",
+          "sl_belief": 0.65,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.2,
+          "sl_disbelief": 0.05,
+          "prompt_version": "v1-2026-04-23-agency",
+          "sl_uncertainty": 0.3
+        }
+      },
+      {
+        "version": 2,
+        "commitTime": 1777049512505,
+        "commitId": "019dc067-a982-7889-aace-f17dbfd31e72",
+        "commitMessage": "correction-reactor: revised agency beliefs for FishKillEvent/test-2026-04-23-rhode (trigger=wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst)",
+        "operation": "revise",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.4,
+          "persona": "agency",
+          "rationale": "The temperature observations at the WASD2 station show a significant increase in water temperature on the day of the event, reaching 27.8°C, which is higher than the typical water temperatures in the area. This suggests the possibility of a thermal stress event contributing to the fish kill.",
+          "sl_belief": 0.4,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.3,
+          "sl_disbelief": 0.1,
+          "prompt_version": "v1-2026-04-23-agency",
+          "sl_uncertainty": 0.5
+        }
+      }
+    ],
+    "AttributionBelief/test-2026-04-23-rhode-ngo-thermal": [
+      {
+        "version": 1,
+        "commitTime": 1776984113850,
+        "commitId": "019dbc81-c254-7102-b802-2a911c629fcc",
+        "commitMessage": "ngo attribution for FishKillEvent/test-2026-04-23-rhode",
+        "operation": "add",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.6,
+          "persona": "ngo",
+          "rationale": "The temperature data from the nearby NOAA stations indicates that water temperatures in the area spiked up to 20.5°C in the hours leading up to the reported fish kill event. This level of thermal stress is a plausible cause for the mortality of the white perch population.",
+          "sl_belief": 0.6,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:30:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-21T23:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.4,
+          "sl_disbelief": 0.2,
+          "prompt_version": "v1-2026-04-23-ngo",
+          "sl_uncertainty": 0.2
+        }
+      },
+      {
+        "version": 2,
+        "commitTime": 1777049505809,
+        "commitId": "019dc067-8fa3-7f70-80a9-f567341228a9",
+        "commitMessage": "correction-reactor: revised ngo beliefs for FishKillEvent/test-2026-04-23-rhode (trigger=wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst)",
+        "operation": "revise",
+        "data": {
+          "cause": "thermal",
+          "model": "anthropic/claude-3-haiku",
+          "share": 0.4,
+          "persona": "ngo",
+          "rationale": "The water temperature observations show a significant temperature differential between the two nearby stations, with the WASD2 station recording a much higher temperature of 27.8°C compared to the 17.5°C at the YKTV2 station. This large temperature gradient suggests the possibility of a thermal discharge or other localized heating event that could be contributing to the fish kill.",
+          "sl_belief": 0.6,
+          "evidence_ids": [
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/WASD2-2026-04-22T00:00:00Z-sst",
+            "wh:fish-kill-attribution/noaa-sst-daily/Observation/YKTV2-2026-04-22T00:00:00Z-sst"
+          ],
+          "sl_base_rate": 0.3,
+          "sl_disbelief": 0.1,
+          "prompt_version": "v1-2026-04-23-ngo",
+          "sl_uncertainty": 0.3
+        }
+      }
+    ]
   }
 }
