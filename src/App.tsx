@@ -36,7 +36,7 @@ export default function App() {
   if (!snapshot) {
     return (
       <div className="fixed inset-0 flex items-center justify-center text-slate-500 text-sm">
-        Loading Chesapeake attribution data…
+        Loading attribution data…
       </div>
     );
   }
@@ -48,7 +48,7 @@ export default function App() {
     <div className="fixed inset-0 flex flex-col overflow-hidden bg-slate-950">
       <header className="flex-none bg-slate-950 border-b border-slate-800 px-4 md:px-5 py-3 flex items-center justify-between gap-4 md:gap-6">
         <div className="min-w-0">
-          <h1 className="text-base font-semibold text-slate-100 truncate">Chesapeake Fish-Kill Attribution</h1>
+          <h1 className="text-base font-semibold text-slate-100 truncate">Fish-Kill Attribution</h1>
           <p className="text-xs text-slate-500 truncate">Multi-persona causal attribution — NGO · Industry · Agency</p>
         </div>
         <div className="flex items-center gap-4 md:gap-6 flex-none">
