@@ -10,6 +10,8 @@ import { WarmHubClient } from '@warmhub/sdk-ts';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import type {
+  AttributionBeliefData,
+  BeliefVersion,
   EvidenceDetail,
   EvidenceKind,
   EvidenceSource,
@@ -132,6 +134,43 @@ async function collectSourceHealth(repo: string, label: EvidenceSource): Promise
         : 'unknown';
 
   return { repo, label, lastCommitAt, commitCount24h, failureCount, status };
+}
+
+// For every belief that's been revised at least once, snapshot its version
+// history so the scrubber can rewind. Beliefs with only one version are
+// omitted from the map (callers fall back to the HEAD data).
+async function collectBeliefVersions(
+  beliefWrefs: string[],
+): Promise<Record<string, BeliefVersion[]>> {
+  const [o, r] = splitRepo(CURATED);
+  const out: Record<string, BeliefVersion[]> = {};
+  const CONCURRENCY = 6;
+  for (let i = 0; i < beliefWrefs.length; i += CONCURRENCY) {
+    const batch = beliefWrefs.slice(i, i + CONCURRENCY);
+    await Promise.all(
+      batch.map(async (wref) => {
+        try {
+          const hist = await client.thing.history(o, r, { wref, includeInactive: true });
+          const versions = (hist.versions ?? []).filter(
+            (v) => v.operation === 'add' || v.operation === 'revise',
+          );
+          if (versions.length < 2) return; // nothing to scrub through
+          versions.sort((a, b) => a.commitTime - b.commitTime);
+          out[wref] = versions.map((v) => ({
+            version: v.version,
+            commitTime: v.commitTime,
+            commitId: v.commitId,
+            commitMessage: v.commitMessage,
+            operation: v.operation as BeliefVersion['operation'],
+            data: (v.data ?? {}) as AttributionBeliefData,
+          }));
+        } catch (err) {
+          console.warn(`[history] ${wref} failed:`, (err as Error).message);
+        }
+      }),
+    );
+  }
+  return out;
 }
 
 async function resolveEvidence(wrefs: Set<string>): Promise<Record<string, EvidenceDetail>> {
@@ -262,7 +301,10 @@ async function main() {
       if (e) evidenceWrefs.add(e);
     }
   }
-  const evidence = await resolveEvidence(evidenceWrefs);
+  const [evidence, beliefVersions] = await Promise.all([
+    resolveEvidence(evidenceWrefs),
+    collectBeliefVersions(beliefs.map((b) => b.wref)),
+  ]);
 
   const eventSlugs = new Set([...eventByName.keys()]);
   const reports = joinReportsToEvents(reportRows, eventSlugs);
@@ -288,13 +330,15 @@ async function main() {
     evidence,
     pipelineHealth,
     satelliteScenes,
+    beliefVersions,
   };
 
   const path = 'public/data.json';
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, JSON.stringify(out, null, 2));
+  const revisedBeliefCount = Object.keys(beliefVersions).length;
   console.log(
-    `Wrote ${events.length} events + ${beliefs.length} beliefs + ${Object.keys(reports).length} reports + ${Object.keys(evidence).length} evidence entries + ${satelliteScenes.length} satellite scenes → ${path}`,
+    `Wrote ${events.length} events + ${beliefs.length} beliefs (${revisedBeliefCount} with history) + ${Object.keys(reports).length} reports + ${Object.keys(evidence).length} evidence entries + ${satelliteScenes.length} satellite scenes → ${path}`,
   );
   console.log(
     `Pipeline health: ${pipelineHealth.sources.map((s) => `${s.label}=${s.status} (${s.commitCount24h} in 24h${s.failureCount ? `, ${s.failureCount} failures` : ''})`).join(' · ')}`,

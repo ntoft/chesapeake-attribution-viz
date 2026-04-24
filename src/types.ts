@@ -14,21 +14,35 @@ export interface FishKillEvent {
 
 export type Persona = 'ngo' | 'industry' | 'agency';
 
+export interface AttributionBeliefData {
+  cause: string;
+  share: number;
+  persona: Persona;
+  model: string;
+  rationale: string;
+  sl_belief: number;
+  sl_disbelief: number;
+  sl_uncertainty: number;
+  sl_base_rate?: number;
+  evidence_ids?: string[];
+}
+
 export interface AttributionBelief {
   wref: string;
   about: string;
-  data: {
-    cause: string;
-    share: number;
-    persona: Persona;
-    model: string;
-    rationale: string;
-    sl_belief: number;
-    sl_disbelief: number;
-    sl_uncertainty: number;
-    sl_base_rate?: number;
-    evidence_ids?: string[];
-  };
+  data: AttributionBeliefData;
+}
+
+// One historical version of a belief. `commitTime` is epoch-ms — the scrubber
+// picks the last version at or before a selected time. `operation` separates
+// the original `add` from a subsequent correction-reactor `revise`.
+export interface BeliefVersion {
+  version: number;
+  commitTime: number;
+  commitId: string;
+  commitMessage?: string;
+  operation: 'add' | 'revise' | 'retract';
+  data: AttributionBeliefData;
 }
 
 // One state-fishkills report, joined to an event by slug. Carries the human
@@ -105,4 +119,8 @@ export interface Snapshot {
   evidence?: Record<string, EvidenceDetail>;    // keyed by evidence wref
   pipelineHealth?: PipelineHealth;
   satelliteScenes?: SatelliteScene[];           // sorted by date desc
+  // Per-belief version history (keyed by belief wref). Sorted ascending by
+  // commitTime. Only present for beliefs that were revised at least once —
+  // single-version beliefs are omitted to keep data.json small.
+  beliefVersions?: Record<string, BeliefVersion[]>;
 }

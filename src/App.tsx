@@ -73,8 +73,10 @@ export default function App() {
           <Legend />
         </div>
         <EventPanel
+          key={selectedWref ?? 'empty'}
           event={selected}
           beliefs={snapshot.beliefs}
+          beliefVersions={snapshot.beliefVersions}
           reports={snapshot.reports}
           evidence={snapshot.evidence}
           satelliteScenes={snapshot.satelliteScenes}
