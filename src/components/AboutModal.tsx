@@ -53,6 +53,15 @@ function Step1() {
         own belief about the cause. You'll see where they agree, where they diverge, and how those
         beliefs shift as new data lands.
       </p>
+      <p className="mt-4 text-sm text-slate-300 leading-relaxed">
+        Fish kills are early warnings. The same pressures that suffocate fish — low oxygen from
+        algal blooms, thermal stress, runoff from farms and storm drains, industrial discharges —
+        also reshape food webs, threaten shellfisheries and drinking water, and reveal how
+        climate, land use, and industry converge on the same waters. Attributing each incident
+        rigorously, and making the disagreement between perspectives visible, turns isolated
+        reports into evidence: usable by scientists tracking long-term trends, regulators
+        evaluating compliance, and communities asking why their rivers keep changing.
+      </p>
       <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
         {PERSONAS.map((p) => (
           <div
