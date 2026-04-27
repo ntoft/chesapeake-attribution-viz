@@ -148,7 +148,7 @@ export function UpdatesPanel({ snapshot, onSelectEvent, onClose }: Props) {
 
   return (
     <aside className="flex-none w-full md:w-[380px] lg:w-[460px] xl:w-[540px] md:h-full border-t md:border-t-0 md:border-l border-slate-800 bg-slate-950/80 overflow-y-auto">
-      <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b border-slate-800 bg-slate-950/95 backdrop-blur">
+      <header className="sticky top-0 z-20 flex items-center justify-between px-5 py-4 border-b border-slate-800 bg-slate-950/95 backdrop-blur">
         <div>
           <h2 className="font-serif text-2xl font-medium text-slate-100 leading-tight">
             Updates
