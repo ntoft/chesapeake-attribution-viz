@@ -49,9 +49,35 @@ export default function App() {
   return (
     <div className="fixed inset-0 flex flex-col overflow-hidden bg-slate-950">
       <header className="flex-none bg-slate-950 border-b border-slate-800 px-4 md:px-5 py-3 flex items-center justify-between gap-4 md:gap-6">
-        <div className="min-w-0">
-          <h1 className="text-base font-semibold text-slate-100 truncate">Fish-Kill Attribution</h1>
-          <p className="text-xs text-slate-500 truncate">Multi-persona causal attribution — NGO · Industry · Agency</p>
+        <div className="flex items-center gap-3 md:gap-4 min-w-0">
+          <svg
+            aria-hidden
+            viewBox="0 0 24 24"
+            className="flex-none w-9 h-9 text-emerald-300/90"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z" />
+            <path d="M18 12v.5" />
+            <path d="M16 17.93a9.77 9.77 0 0 1 0-11.86" />
+            <path d="M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .47 6.5-1.47 1.5-1.47 5-.47 6.5C5.58 18.03 7 16 7 13.33" />
+          </svg>
+          <div className="min-w-0">
+            <h1 className="font-serif text-2xl md:text-[26px] font-medium text-slate-100 truncate leading-tight tracking-tight">
+              Fish-Kill Attribution
+            </h1>
+            <p className="text-xs text-slate-500 truncate">Multi-persona causal attribution — NGO · Industry · Agency</p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setAboutOpen(true)}
+            className="flex-none text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-md border border-slate-700 bg-slate-900/60 text-slate-300 hover:bg-slate-800 hover:text-slate-100 transition-colors"
+          >
+            About
+          </button>
         </div>
         <div className="flex items-center gap-4 md:gap-6 flex-none">
           <div className="hidden md:block">
@@ -61,13 +87,6 @@ export default function App() {
             <div>{eventCount} events · {beliefCount} beliefs</div>
             <div className="text-slate-600 hidden sm:block">Snapshot {new Date(snapshot.generatedAt).toLocaleString()}</div>
           </div>
-          <button
-            type="button"
-            onClick={() => setAboutOpen(true)}
-            className="text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-md border border-slate-700 bg-slate-900/60 text-slate-300 hover:bg-slate-800 hover:text-slate-100 transition-colors"
-          >
-            About
-          </button>
         </div>
       </header>
       <div className="flex-1 min-h-0 flex flex-col md:flex-row overflow-hidden">
