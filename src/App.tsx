@@ -3,6 +3,7 @@ import { Map } from './components/Map';
 import { EventPanel } from './components/EventPanel';
 import { Legend } from './components/Legend';
 import { FreshnessStrip } from './components/FreshnessStrip';
+import { AboutModal } from './components/AboutModal';
 import type { Snapshot } from './types';
 import './App.css';
 
@@ -10,6 +11,7 @@ export default function App() {
   const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selectedWref, setSelectedWref] = useState<string | null>(null);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   useEffect(() => {
     fetch('/data.json')
@@ -59,6 +61,13 @@ export default function App() {
             <div>{eventCount} events · {beliefCount} beliefs</div>
             <div className="text-slate-600 hidden sm:block">Snapshot {new Date(snapshot.generatedAt).toLocaleString()}</div>
           </div>
+          <button
+            type="button"
+            onClick={() => setAboutOpen(true)}
+            className="text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-md border border-slate-700 bg-slate-900/60 text-slate-300 hover:bg-slate-800 hover:text-slate-100 transition-colors"
+          >
+            About
+          </button>
         </div>
       </header>
       <div className="flex-1 min-h-0 flex flex-col md:flex-row overflow-hidden">
@@ -83,6 +92,7 @@ export default function App() {
           onClose={() => setSelectedWref(null)}
         />
       </div>
+      <AboutModal open={aboutOpen} onClose={() => setAboutOpen(false)} />
     </div>
   );
 }
