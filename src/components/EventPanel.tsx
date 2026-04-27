@@ -9,6 +9,7 @@ import type {
   SatelliteScene,
 } from '../types';
 import { BeliefColumn } from './BeliefColumn';
+import { EventHero } from './EventHero';
 import { NarrativeBanner } from './NarrativeBanner';
 import { ConsensusStrip } from './ConsensusStrip';
 import { Scrubber } from './Scrubber';
@@ -99,24 +100,15 @@ export function EventPanel({
 
   return (
     <aside className="flex-none w-full md:w-[380px] lg:w-[460px] xl:w-[540px] md:h-full border-t md:border-t-0 md:border-l border-slate-800 bg-slate-950/80 overflow-y-auto">
-      <header className="sticky top-0 z-10 bg-slate-950/95 backdrop-blur px-5 py-4 border-b border-slate-800 flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h2 className="text-lg font-semibold text-slate-100 truncate">{event.data.location_name}</h2>
-          <p className="text-xs text-slate-400 mt-1">
-            {event.data.date}
-            {event.data.primary_species && ` · ${event.data.primary_species}`}
-            {event.data.estimated_mortality != null && ` · ~${event.data.estimated_mortality.toLocaleString()} fish`}
-          </p>
-          <p className="text-[10px] text-slate-600 mt-1 font-mono truncate">{event.wref}</p>
-        </div>
-        <button
-          onClick={onClose}
-          className="text-slate-500 hover:text-slate-200 text-xl leading-none flex-none"
-          aria-label="Close"
-        >
-          ×
-        </button>
-      </header>
+      <button
+        onClick={onClose}
+        className="sticky top-2 float-right mr-2 z-20 w-7 h-7 rounded-full bg-slate-900/80 hover:bg-slate-800 text-slate-300 hover:text-slate-100 text-lg leading-none flex items-center justify-center border border-slate-700/60 backdrop-blur-sm"
+        aria-label="Close"
+      >
+        ×
+      </button>
+      <EventHero event={event} beliefs={timeScopedBeliefs} />
+      <p className="px-4 mt-2 text-[10px] text-slate-600 font-mono truncate">{event.wref}</p>
       <Scrubber versions={eventVersions} selectedTime={selectedTime} onChange={setSelectedTime} />
       <NarrativeBanner report={report} />
       <ConsensusStrip beliefs={timeScopedBeliefs} />
