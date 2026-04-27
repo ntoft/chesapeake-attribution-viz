@@ -38,7 +38,7 @@ export function Scrubber({ versions, selectedTime, onChange }: Props) {
   const range = max - min || 1;
 
   return (
-    <div className="px-5 py-3 border-b border-slate-800 bg-slate-950/60">
+    <div className="sticky top-0 z-10 pl-5 pr-12 py-3 border-b border-slate-800 bg-slate-950/95 backdrop-blur">
       <div className="flex items-center justify-between gap-3 mb-2">
         <div className="flex items-center gap-2 min-w-0">
           <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold">
